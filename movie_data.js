@@ -4724,8 +4724,21 @@ window.cinemaGharData = [
         "hubcloudLink": null,
         "filepressLink": null,
         "gdtotLink": null
-    }
-  
+    },
+    {
+    "id": 338,
+    "filename": "Marvel Studios Avengers Endgame (2019) 1080p MA WEB-DL SDR [Hindi + English DDP5.1] H264 (SARVO-MANiAC).mkv",
+    "size": "10.56 GB",
+    "quality": "1080p",
+    "languages": "Hindi, English, Esubs",
+    "lastUpdated": "2025-04-21",
+    "url": "https://d2pumu4scdgn4w.cloudfront.net/Marvel_Studios_Avengers_Endgame_2019_1080p_MA_WEB_DL_SDR_Hindi_English_DDP5_1_H264_SARVO_MANiAC_.mkv",
+    "telegramLink": null,
+    "gdflixLink": null,
+    "hubcloudLink": "https://hubcloud.ink/drive/vqzqqdlvmz1cz7q",
+    "filepressLink": null,
+    "gdtotLink": null
+}
   // --- End of Data ---
 ];
 
