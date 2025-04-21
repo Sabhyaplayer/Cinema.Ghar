@@ -4545,16 +4545,16 @@ window.cinemaGharData = [
     },
     {
         "id": 325,
-        "filename": "C.I.D.S03E36.720p.NF.WEB-DL.Hindi.AAC2.0.H.264-4kHdHub.Com.mkv",
-        "size": "1 GB", // Extracted from input
-        "quality": "720p",
-        "languages": "Hindi, ESubs", // Extracted from "Hindi | ESubs"
-        "lastUpdated": "2025-04-21", // Extracted from "4/21/2025 9:20:48"
-        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/871b7327b951219d96b761975b22f2b6/C.I.D.S03E36.720p.NF.WEB-DL.Hindi.AAC2.0.H.264-4kHdHub.Com.mkv",
+        "filename": "Babygirl.2024.1080p.AMZN.WEB-DL.DDP2.0.HEVC - Saon",
+        "size": "4.21 GB", 
+        "quality": "1080p",
+        "languages": "Hindi | English", 
+        "lastUpdated": "2025-04-21", 
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/3be17e67ca335b8b89d8ee374fd3f1e4/Babygirl.2024.1080p.AMZN.WEB-DL.DDP2.0.HEVC-Saon.mkv",
         "telegramLink": null,
-        "gdflixLink": "https://gd.vifix.site/file/AfinO0kA5ejZR8Y", // From input
+        "gdflixLink": "https://gdlink.dev/file/RoSwcvccfD9mCp8", 
         "hubcloudLink": null,
-        "filepressLink": null,
+        "filepressLink": "https://new1.filepress.icu/file/68050b948d595a25feb98d51",
         "gdtotLink": null
     }
   
