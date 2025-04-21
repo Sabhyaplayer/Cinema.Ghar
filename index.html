@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="google-site-verification" content="uPCnPJ4tDWVislSxUTUa1c1cYIzinvA56_mHiJHHotI" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Make title dynamic based on shared item later -->
     <title>Cinema Ghar Index</title>
@@ -1510,23 +1509,23 @@
 </div> <!-- End #cinemaghar-container -->
 
 <!-- ***** Script Includes ***** -->
-<!-- Load the movie data FIRST -->
-<script src="movie_data.js"></script>
+<!-- REMOVED: <script src="movie_data.js"></script> -->
+<!-- The data will be loaded dynamically below -->
 
-<!-- START OF INLINED SCRIPT BLOCK (MODIFIED) -->
+<!-- START OF INLINED SCRIPT BLOCK (MODIFIED FOR DYNAMIC LOADING) -->
 <script>
-  // --- START OF INLINED script.js (MODIFIED FOR movie_data.js) ---
+  // --- START OF INLINED script.js (MODIFIED FOR DYNAMIC movie_data.js LOADING) ---
   (function() {
       'use strict';
 
       // ===========================================================
-      // JAVASCRIPT SECTION (Updated for Local JS Data Loading)
+      // JAVASCRIPT SECTION (Updated for Dynamic JS Data Loading)
       // ===========================================================
       const config = {
           HDR_LOGO_URL: "https://as1.ftcdn.net/v2/jpg/05/32/83/72/1000_F_532837228_v8CGZRU0jy39uCtqFRnJz6xDntrGuLLx.webp",
           FOURK_LOGO_URL: "https://i.pinimg.com/736x/85/c4/b0/85c4b0a2fb8612825d0cd2f53460925f.jpg",
           ITEMS_PER_PAGE: 50,
-          LOCAL_STORAGE_KEY: 'cinemaGharState_v8_share',
+          LOCAL_STORAGE_KEY: 'cinemaGharState_v8_share', // Keep same key for now
           PLAYER_VOLUME_KEY: 'cinemaGharPlayerVolume',
           PLAYER_SPEED_KEY: 'cinemaGharPlayerSpeed',
           SEARCH_DEBOUNCE_DELAY: 300,
@@ -1534,7 +1533,7 @@
           MAX_SUGGESTIONS: 50,
           UPDATES_PREVIEW_INITIAL_COUNT: 10,
           UPDATES_PREVIEW_LOAD_MORE_COUNT: 10,
-          // DATA_FILE_URL: 'live_movie_data.json' // <<< REMOVED: No longer needed
+          MOVIE_DATA_SCRIPT_URL: 'movie_data.js' // <<< Added URL for data script
       };
 
       // --- DOM Element References (Keep all existing references) ---
@@ -1840,11 +1839,11 @@
       function focusFirstElementInContainer(containerElement) { if (!containerElement) return; const firstFocusable = containerElement.querySelector('button, a[href]'); if (firstFocusable) { setTimeout(() => firstFocusable.focus(), 50); } }
 
       // --- Share Logic (Keep ALL of this section) ---
-      // [NO CHANGES needed to this function: handleShareClick]
+      // [NO CHANGES needed to these functions: handleShareClick]
       async function handleShareClick(buttonElement) { const itemId = buttonElement.dataset.id; const itemTitle = buttonElement.dataset.title || "Cinema Ghar Item"; const itemFilename = buttonElement.dataset.filename || ""; if (!itemId) { console.error("Share failed: Item ID missing."); alert("Cannot share this item (missing ID)."); return; } const shareUrl = `${window.location.origin}${window.location.pathname}?shareId=${encodeURIComponent(itemId)}`; const shareText = `Check out: ${itemTitle}\n${itemFilename ? `(${itemFilename})\n` : ''}`; const feedbackSpan = buttonElement.nextElementSibling; if (!feedbackSpan || !feedbackSpan.classList.contains('copy-feedback')) { console.warn("Share fallback feedback span not found next to button:", buttonElement); } if (navigator.share) { try { await navigator.share({ title: itemTitle, text: shareText, url: shareUrl, }); console.log('Successful share'); } catch (error) { console.error('Error sharing:', error); if (error.name !== 'AbortError') { if (feedbackSpan) { showCopyFeedback(feedbackSpan, 'Share failed!', true); } else { alert(`Share failed: ${error.message}`); } } } } else { console.log('Web Share API not supported, falling back to copy.'); await copyToClipboard(shareUrl, feedbackSpan); } }
 
       // --- Shared Item Display Logic (Keep ALL of this section) ---
-      // [NO CHANGES needed to this function: displaySharedItem]
+      // [NO CHANGES needed to these functions: displaySharedItem]
       function displaySharedItem(shareId) { if (!shareId || !sharedItemView || !sharedItemContent) return; const sharedMovie = allMovieData.find(movie => String(movie.id) === String(shareId)); if (sharedMovie) { console.log("Displaying shared item:", sharedMovie.displayFilename); const actionHTML = createActionContentHTML(sharedMovie); sharedItemContent.innerHTML = actionHTML; document.title = `${sharedMovie.displayFilename || 'Shared Item'} - Cinema Ghar`; if (videoContainer) videoContainer.style.display = 'none'; } else { console.error("Shared item not found for ID:", shareId); sharedItemContent.innerHTML = `<div class="error-message" role="alert">Error: Shared item with ID ${sanitize(shareId)} was not found. It might have been removed or the link is incorrect.</div>`; document.title = "Item Not Found - Cinema Ghar Index"; } setViewMode('shared'); window.scrollTo({ top: 0, behavior: 'smooth' }); }
 
       // --- Player Logic (Keep ALL of this section) ---
@@ -1889,19 +1888,67 @@
       function saveStateToLocalStorage() { try { const stateToSave = {}; if (currentState.sortColumn !== 'lastUpdated') stateToSave.sortColumn = currentState.sortColumn; if (currentState.sortDirection !== 'desc') stateToSave.sortDirection = currentState.sortDirection; if (currentState.qualityFilter !== '') stateToSave.qualityFilter = currentState.qualityFilter; if (Object.keys(stateToSave).length > 0) { localStorage.setItem(config.LOCAL_STORAGE_KEY, JSON.stringify(stateToSave)); console.log("Saved state:", stateToSave); } else { localStorage.removeItem(config.LOCAL_STORAGE_KEY); console.log("State is default, removed saved state."); } } catch (e) { console.error("Failed to save state to localStorage:", e); } }
       function loadStateFromLocalStorage() { try { const savedState = localStorage.getItem(config.LOCAL_STORAGE_KEY); if (savedState) { const parsedState = JSON.parse(savedState); currentState.sortColumn = typeof parsedState.sortColumn === 'string' ? parsedState.sortColumn : 'lastUpdated'; currentState.sortDirection = (typeof parsedState.sortDirection === 'string' && ['asc', 'desc'].includes(parsedState.sortDirection)) ? parsedState.sortDirection : 'desc'; currentState.qualityFilter = typeof parsedState.qualityFilter === 'string' ? parsedState.qualityFilter : ''; console.log("Loaded state:", { sortColumn: currentState.sortColumn, sortDirection: currentState.sortDirection, qualityFilter: currentState.qualityFilter }); } else { currentState.sortColumn = 'lastUpdated'; currentState.sortDirection = 'desc'; currentState.qualityFilter = ''; console.log("No saved state found, using defaults."); } } catch (e) { console.error("Failed to load or parse state from localStorage:", e); localStorage.removeItem(config.LOCAL_STORAGE_KEY); currentState.sortColumn = 'lastUpdated'; currentState.sortDirection = 'desc'; currentState.qualityFilter = ''; } currentState.searchTerm = ''; resetPagination(); activeResultsTab = 'allFiles'; activeTableActionRow = null; activePreviewActionRow = null; lastFocusedElement = null; }
 
-      // --- Initial Data Loading and Setup ---
+      // --- Initial Data Loading and Setup (MODIFIED) ---
 
-      // Helper: Process data (now processes data from window.cinemaGharData)
-      function processLocalData(rawData) {
-          if (!Array.isArray(rawData)) {
-             throw new Error("Data in movie_data.js (window.cinemaGharData) is not a valid array.");
+      // *** NEW: Function to load and execute movie_data.js dynamically ***
+      async function loadMovieDataScript() {
+          console.log(`Fetching ${config.MOVIE_DATA_SCRIPT_URL} with cache reload...`);
+          try {
+              // Fetch the script content, bypassing browser cache
+              const response = await fetch(config.MOVIE_DATA_SCRIPT_URL, { cache: 'reload' });
+
+              if (!response.ok) {
+                  throw new Error(`HTTP error! Status: ${response.status} - Failed to fetch ${config.MOVIE_DATA_SCRIPT_URL}`);
+              }
+
+              const scriptContent = await response.text();
+              console.log(`${config.MOVIE_DATA_SCRIPT_URL} fetched successfully (${scriptContent.length} chars). Executing...`);
+
+              // Execute the script content in the global scope
+              // Method 1: Dynamic script tag (preferred)
+              const scriptElement = document.createElement('script');
+              scriptElement.textContent = scriptContent;
+              document.body.appendChild(scriptElement); // Append to body to ensure execution
+              // Clean up the temporary script tag after execution (optional, but good practice)
+              // Use setTimeout to ensure execution happens before removal in most browsers
+              setTimeout(() => {
+                   if (scriptElement.parentNode) {
+                       scriptElement.parentNode.removeChild(scriptElement);
+                   }
+              }, 0);
+
+              // Method 2: new Function() (alternative, slightly less standard for global definitions)
+              // const executeScript = new Function(scriptContent);
+              // executeScript();
+
+              console.log(`${config.MOVIE_DATA_SCRIPT_URL} executed.`);
+
+              // Verify that window.cinemaGharData is now defined
+              if (typeof window.cinemaGharData === 'undefined') {
+                  throw new Error(`Script ${config.MOVIE_DATA_SCRIPT_URL} executed, but window.cinemaGharData was not defined. Check the script's content.`);
+              }
+
+          } catch (error) {
+              console.error(`Error loading or executing ${config.MOVIE_DATA_SCRIPT_URL}:`, error);
+              // Re-throw the error to be caught by the main initialization logic
+              throw error;
           }
+      }
+
+      // Helper: Process data (now processes data from window.cinemaGharData AFTER dynamic loading)
+      function processLocalData() { // Removed rawData parameter
+          // Ensure window.cinemaGharData exists (should be guaranteed by loadMovieDataScript)
+          if (typeof window.cinemaGharData === 'undefined' || !Array.isArray(window.cinemaGharData)) {
+             throw new Error("window.cinemaGharData is not a valid array after script execution.");
+          }
+
+          const rawData = window.cinemaGharData; // Use the globally defined data
           uniqueQualities.clear();
           // Filter out the placeholder entry if it exists and has id 0/null filename
           const validData = rawData.filter(movie => movie && movie.id !== 0 && movie.filename !== "null");
 
           allMovieData = validData.map(preprocessMovieData); // Use the existing preprocess function
-          console.log(`Successfully processed ${allMovieData.length} valid items from movie_data.js.`);
+          console.log(`Successfully processed ${allMovieData.length} valid items from dynamically loaded data.`);
           prepareWeeklyUpdatesData(); // Prepare updates data after processing all data
       }
 
@@ -1925,8 +1972,8 @@
            }
       }
 
-      // *** MODIFIED: Main initial load orchestrator for local JS data ***
-      function loadInitialData() { // Removed async keyword
+      // *** MODIFIED: Main initial load orchestrator using dynamic script loading ***
+      async function initializeApp() { // Renamed and made async
           const urlParams = new URLSearchParams(window.location.search);
           const shareId = urlParams.get('shareId');
           isDirectShareLoad = !!shareId;
@@ -1957,22 +2004,26 @@
           loadStateFromLocalStorage(); // Load sorting/filter defaults
 
           try {
-              // ***** CORE CHANGE: Access local data directly *****
-              console.log("Accessing data from window.cinemaGharData...");
-              if (typeof window.cinemaGharData !== 'undefined' && window.cinemaGharData !== null) {
-                  console.log(`Found window.cinemaGharData with ${window.cinemaGharData.length} items.`);
-                  processLocalData(window.cinemaGharData); // Process the local data
-                  setupInitialView(shareId); // Populate UI based on processed data and shareId
-              } else {
-                  throw new Error("window.cinemaGharData is not defined. Ensure movie_data.js loaded correctly before this script.");
-              }
+              // ***** CORE CHANGE: Load the script dynamically FIRST *****
+              await loadMovieDataScript();
               // ***** END OF CORE CHANGE *****
 
+              // Now that the script is loaded and executed, process the data
+              processLocalData();
+
+              // Setup the rest of the UI based on the loaded data
+              setupInitialView(shareId);
+
           } catch (error) {
-              console.error('FATAL: Failed to load or process initial data from movie_data.js:', error);
-              let errorMessage = `Error loading data: ${error.message}. `;
-              errorMessage += " Ensure 'movie_data.js' is included correctly and contains valid data (window.cinemaGharData = [...]). Check browser console (F12) for loading errors.";
-              errorMessage += " Try refreshing the page.";
+              // Error handling moved here to catch errors from loadMovieDataScript OR processLocalData
+              console.error('FATAL: Failed during app initialization:', error);
+              let errorMessage = `Error initializing app: ${error.message}. `;
+              if (error.message.includes('fetch')) {
+                 errorMessage += ` Please ensure '${config.MOVIE_DATA_SCRIPT_URL}' exists and is accessible.`;
+              } else if (error.message.includes('window.cinemaGharData')) {
+                 errorMessage += ` The file '${config.MOVIE_DATA_SCRIPT_URL}' might be empty or doesn't correctly define 'window.cinemaGharData = [...]'.`;
+              }
+              errorMessage += " Check the browser console (F12) for more details and network errors. Try refreshing the page.";
               displayLoadError(errorMessage); // Display error prominently
 
           } finally {
@@ -2006,10 +2057,13 @@
           } else if (container) {
               container.insertAdjacentHTML('afterbegin', errorHtml);
           }
+           // Ensure loader is hidden even if error occurs early
+          if (pageLoader) pageLoader.style.display = 'none';
       }
 
       // --- Event Handling Setup (Keep ALL of this section) ---
-      // [NO CHANGES needed to these functions: handleActionClick, handleContentClick, and the DOMContentLoaded listener]
+      // [NO CHANGES needed to these functions: handleActionClick, handleContentClick]
+      // [DOM Listener is slightly modified to call the async initializeApp]
       function handleActionClick(event) {
           const target = event.target;
           const button = target.closest('.action-buttons-container .button');
@@ -2047,9 +2101,10 @@
                return;
           }
       }
-      document.addEventListener('DOMContentLoaded', () => {
-          loadInitialData(); // Calls the modified synchronous function
+      document.addEventListener('DOMContentLoaded', async () => { // <-- Made async
+          await initializeApp(); // <-- Call the main async initialization function
 
+          // Attach event listeners AFTER data is loaded and initial view is set up
           if (searchInput) {
               searchInput.addEventListener('input', handleSearchInput);
               searchInput.addEventListener('keydown', (event) => { if (event.key === 'Enter') { event.preventDefault(); handleSearchSubmit(); } else if (event.key === 'Escape') { suggestionsContainer.style.display = 'none'; } });
@@ -2074,14 +2129,14 @@
           videoElement.addEventListener('volumechange', () => { if (volumeSlider && Math.abs(parseFloat(volumeSlider.value) - videoElement.volume) > 0.01) { volumeSlider.value = videoElement.volume; } updateMuteButton(); try { localStorage.setItem(config.PLAYER_VOLUME_KEY, String(videoElement.volume)); } catch (e) { console.warn("LocalStorage volume save failed", e); } });
           videoElement.addEventListener('ratechange', () => { if(playbackSpeedSelect && playbackSpeedSelect.value !== String(videoElement.playbackRate)) { playbackSpeedSelect.value = String(videoElement.playbackRate); } try { localStorage.setItem(config.PLAYER_SPEED_KEY, String(videoElement.playbackRate)); } catch (e) { console.warn("LocalStorage speed save failed", e); } });
           videoElement.addEventListener('loadedmetadata', populateAudioTrackSelector);
-          videoElement.removeEventListener('error', handleVideoError);
+          videoElement.removeEventListener('error', handleVideoError); // Ensure no duplicates if script re-runs somehow
           videoElement.addEventListener('error', handleVideoError);
       }
       document.addEventListener('fullscreenchange', handleFullscreenChange);
       document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
 
   })(); // End of IIFE
-  // --- END OF INLINED script.js (MODIFIED FOR movie_data.js) ---
+  // --- END OF INLINED script.js (MODIFIED FOR DYNAMIC movie_data.js LOADING) ---
 </script>
 <!-- END OF UPDATED SCRIPT BLOCK -->
 
