@@ -4556,6 +4556,62 @@ window.cinemaGharData = [
         "hubcloudLink": null,
         "filepressLink": "https://new1.filepress.icu/file/68050b948d595a25feb98d51",
         "gdtotLink": null
+    },
+    {
+        "id": 326,
+        "filename": "Solo.Leveling.S02.1080p.AMZN.WEB-DL.DDP2.0.HEVC - Saon",
+        "size": "7.68 GB",
+        "quality": "1080p",
+        "languages": "Japanese, English, Hindi, Tamil, Telugu, Multi Subs",
+        "lastUpdated": "2025-04-21",
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/xkpsKpyFFPKd1vo",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/8248912532"
+    },
+    {
+        "id": 327,
+        "filename": "Mr.Queen.S01.1080p.NF.WEB-DL.AAC2.0.AV1 - Saon",
+        "size": "36.8 GB",
+        "quality": "1080p",
+        "languages": "Korean, ENG SDH",
+        "lastUpdated": "2025-04-21",
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/rsH0ABkDsSB0DOW",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/39515028730"
+    },
+    {
+        "id": 328,
+        "filename": "Pangolin.Kulus.Journey.2025.1080p.NF.WEB-DL.DDP5.1.Atmos.HEVC - Saon",
+        "size": "3.4 GB",
+        "quality": "1080p",
+        "languages": "English, Hindi",
+        "lastUpdated": "2025-04-21",
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/udFrxDb8ZBS0lqH",
+        "hubcloudLink": null,
+        "filepressLink": "https://new1.filepress.icu/file/68065bdb8d595a25fe2c6cfb",
+        "gdtotLink": null
+    },
+    {
+        "id": 329,
+        "filename": "Pangolin.Kulus.Journey.2025.1080p.NF.WEB-DL.AAC5.1.AV1 - Saon",
+        "size": "2.08 GB",
+        "quality": "1080p",
+        "languages": "English, Hindi",
+        "lastUpdated": "2025-04-21",
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/6MIaL0MAKOYR5oY",
+        "hubcloudLink": null,
+        "filepressLink": "https://new1.filepress.icu/file/68065c6d8d595a25fe2cc9dd",
+        "gdtotLink": null
     }
   
   // --- End of Data ---
