@@ -4542,6 +4542,20 @@ window.cinemaGharData = [
         "hubcloudLink": null,
         "filepressLink": null,
         "gdtotLink": null
+    },
+    {
+        "id": 325,
+        "filename": null,
+        "size": null,
+        "quality": null,
+        "languages": null, 
+        "lastUpdated": null
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
     }
   // --- End of Data ---
 ];
