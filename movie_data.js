@@ -1,0 +1,4557 @@
+// movie_data.js
+// IMPORTANT: This data is generated based on the provided table.
+// Ensure the keys (id, filename, size, quality, lastUpdated, url, etc.) match exactly
+// what your original sheet provided and what the preprocessMovieData function expects.
+// Use null for empty cells where appropriate.
+
+window.cinemaGharData = [
+  // --- Start Generated Data ---
+    {
+        "id": 1,
+        "filename": "Chhaava.2025.720p.NF.WEB-DL.AAC5.1.AV1-Telly.mkv",
+        "size": "815 MB",
+        "quality": "720p",
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-12", // Extracted from "4/12/2025 17:30:24"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Chhaava.2025.720p.NF.WEB-DL.AAC5.1.AV1-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADQgkAAo9Z6EeQW8SXp4jhVBYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/tf9mlhz5mdlfii4",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 2,
+        "filename": "Chhaava.2025.1080p.NF.WEB-DL.AAC5.1.AV1-Telly.mkv",
+        "size": "~2.8 GB",
+        "quality": "1080p",
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-12", // Extracted from "4/12/2025 17:35:24"
+        "url": "https://pub-9b19d6a3be994ea8afbf05883e2ab59f.r2.dev/Chhaava.2025.1080p.NF.WEB-DL.AAC5.1.AV1-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADQwkAAo9Z6EdleN10XCZ9UhYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/v215166041eucnb",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 3,
+        "filename": "Court.State.vs.A.Nobody.2025.720p.NF.WEB-DL.MULTI.AAC5.1.AV1-Telly.mkv",
+        "size": "1.5 GB",
+        "quality": "720p",
+        "languages": "Multi",
+        "lastUpdated": "2025-04-14", // Extracted from "4/14/2025 17:30:24"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Court.State.vs.A.Nobody.2025.720p.NF.WEB-DL.MULTI.AAC5.1.AV1-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADOgkAAo9Z6Eehby8FfkyjBhYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 4,
+        "filename": "Court.State.vs.A.Nobody.2025.1080p.NF.WEB-DL.MULTI.AAC5.1.AV1-Telly.mkv",
+        "size": "3.0 GB",
+        "quality": "1080p",
+        "languages": "Multi",
+        "lastUpdated": "2025-04-14", // Extracted from "4/14/2025 17:30:24"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Court.State.vs.A.Nobody.2025.1080p.NF.WEB-DL.MULTI.AAC5.1.AV1-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADQgkAAo9Z6EeQW8SXp4jhVBYE", // Note: Same TG link as ID 1, assuming correct
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 5,
+        "filename": "Perusu.2025.720p.NF.WEB-DL.MULTI.AAC5.1.AV1-Telly.mkv",
+        "size": "983 MB",
+        "quality": "720p",
+        "languages": "Kannada | Malayalam | Tamil | Telugu",
+        "lastUpdated": "2025-04-14", // Extracted from "4/14/2025 17:30:24"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Perusu.2025.720p.NF.WEB-DL.MULTI.AAC5.1.AV1-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD1QcAAmmt6Uf3g7j1B470rRYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 6,
+        "filename": "Perusu.2025.1080p.NF.WEB-DL.MULTI.AAC5.1.AV1-Telly.mkv",
+        "size": "1.66 GB",
+        "quality": "1080p",
+        "languages": "Kannada | Malayalam | Tamil | Telugu",
+        "lastUpdated": "2025-04-14", // Extracted from "4/14/2025 17:46:12"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Perusu.2025.1080p.NF.WEB-DL.MULTI.AAC5.1.AV1-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADHQgAAmmt6Ueb1tUs6ijt3BYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 7,
+        "filename": "Crazxy.2025.2160p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "size": "9.9 GB",
+        "quality": "2160p",
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-14", // Extracted from "4/14/2025 18:16:52"
+        "url": "https://pub-c0a0ef4afed74d31b975ce54eb2bd4ad.r2.dev/Crazxy.2025.2160p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/113qq9ay0a1e1cs",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 8,
+        "filename": "TEST.2025.2160p.NF.WEB-DL.Multi.DDP5.1.H.265-Telly.mkv",
+        "size": "15.55 GB",
+        "quality": "2160p",
+        "languages": "Hindi | Tamil | Telugu | Kannada | Malayalam",
+        "lastUpdated": "2025-04-14", // Extracted from "4/14/2025 20:36:45"
+        "url": "https://pub-c0a0ef4afed74d31b975ce54eb2bd4ad.r2.dev/TEST.2025.2160p.NF.WEB-DL.Multi.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/qvf7rmrqmmbtvlt", // Note: .ink domain
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 9,
+        "filename": "Captain.America.Brave.New.World.2025.2160p.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-XEBEC.mkv",
+        "size": "20.72 GB", // Extracted from filename
+        "quality": "2160p",
+        "languages": "English", // Simplified from "English | E-AC-3 | 6ch | 640kb/s"
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 8:45:16"
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/ionicboy/file/bcMZ7g8FVK",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 10,
+        "filename": "Captain.America.Brave.New.World.2025.2160p.WEB-DL.DDP5.1.Atmos.H.265-XEBEC.mkv",
+        "size": "17.5 GB", // Extracted from filename
+        "quality": "2160p",
+        "languages": "English", // Simplified from "English | E-AC-3 | 6ch | 640kb/s"
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 8:45:16"
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/ionicboy/file/CU5ehh5YPL",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 11,
+        "filename": "Captain.America.Brave.New.World.2025.2160p.AMZN.WEB-DL.DDP5.1.HEVC-KyoGo.mkv",
+        "size": "12.99 GB", // Extracted from filename
+        "quality": "2160p",
+        "languages": "English", // Simplified from "English | E-AC-3 | 6ch | 640kb/s"
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 8:45:16"
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/13943611111"
+    },
+    {
+        "id": 12,
+        "filename": "Captain.America.Brave.New.World.2025.2160p.AMZN.WEB-DL.DDP5.1.HDR.HEVC-KyoGo.mkv",
+        "size": "12.98 GB", // Extracted from filename
+        "quality": "2160p",
+        "languages": "English", // Simplified from "English | E-AC-3 | 6ch | 640kb/s"
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 8:45:16"
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/13937631061"
+    },
+    {
+        "id": 13,
+        "filename": "Captain.America.Brave.New.World.2025.1080p.AMZN.WEB-DL.DDP5.1.H.264-KyoGo.mkv",
+        "size": "7.25 GB", // Extracted from filename
+        "quality": "1080p",
+        "languages": "English", // Simplified from "English | E-AC-3 | 6ch | 640kb/s"
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 8:45:16"
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/7779499591"
+    },
+    {
+        "id": 14,
+        "filename": "Captain.America.Brave.New.World.2025.1080p.AMZN.WEB-DL.DDP5.1.HEVC-KyoGo.mkv",
+        "size": "2.63 GB", // Extracted from filename
+        "quality": "1080p",
+        "languages": "English", // Simplified from "English | E-AC-3 | 6ch | 640kb/s"
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 8:45:16"
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADUQsAAmmt8UdLFI-Y6uVJERYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/2818643998"
+    },
+    {
+        "id": 15,
+        "filename": "Captain.America.Brave.New.World.2025.720p.AMZN.WEB-DL.DDP5.1.HEVC-KyoGo.mkv",
+        "size": "718.67 MB", // Extracted from filename
+        "quality": "720p",
+        "languages": "English", // Simplified from "English | E-AC-3 | 6ch | 640kb/s"
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 8:45:16"
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADSwsAAmmt8UdAtkv9GHiS_RYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/753585094"
+    },
+    {
+        "id": 16,
+        "filename": "C.I.D.S03E34.13-04-2025.Purze.1080p.NF.WEB-DL.AAC2.0.H.264-PrimeFix.mkv",
+        "size": "1.84 GB", // Extracted from filename
+        "quality": "1080p",
+        "languages": "hindi",
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 10:50:21"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/e0d52363fbb1d80b9172cfef1ab2e756/C.I.D.S03E34.13-04-2025.Purze.1080p.NF.WEB-DL.AAC2.0.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADMAsAAmmt8UdF4v9mOYgt2xYE",
+        "gdflixLink": "https://gd.vifix.site/file/KbB22Os6bX",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 17,
+        "filename": "Behind.the.Curtain.Stranger.Things.The.First.Shadow.2025.720p.NF.WEB-DL.AAC5.1.AV1-PrimeFix.mkv",
+        "size": "369.02 MB", // Extracted from filename
+        "quality": "720p",
+        "languages": "English | ESubs",
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 13:09:05"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/1d427d54dc2d5c7b509965704b4fefec/Behind.the.Curtain.Stranger.Things.The.First.Shadow.2025.720p.NF.WEB-DL.AAC5.1.AV1-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADhAcAApHW-EdlM9ccRdHfxxYE",
+        "gdflixLink": "https://vifix.site/gdflix/yCCiaJtrDw",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 18,
+        "filename": "Behind.the.Curtain.Stranger.Things.The.First.Shadow.2025.1080p.NF.WEB-DL.AAC5.1.AV1-PrimeFix.mkv",
+        "size": "557.78 MB", // Extracted from filename
+        "quality": "1080p",
+        "languages": "English | ESubs",
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 13:09:05"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/78477ac3bae1157a226341aff0b82ccd/Behind.the.Curtain.Stranger.Things.The.First.Shadow.2025.1080p.NF.WEB-DL.AAC5.1.AV1-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADiQcAApHW-Ed5JuxU7HkaRxYE",
+        "gdflixLink": "https://vifix.site/gdflix/QfFouwicnd",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 19,
+        "filename": "Behind.the.Curtain.Stranger.Things.The.First.Shadow.2025.1080p.NF.WEB-DL.AAC5.1.H.265-PrimeFix.mkv",
+        "size": "1.58 GB", // Extracted from filename
+        "quality": "1080p",
+        "languages": "English | ESubs",
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 13:09:05"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/1e790bd7887e6421c19c55d0abb1c7b3/Behind.the.Curtain.Stranger.Things.The.First.Shadow.2025.1080p.NF.WEB-DL.AAC5.1.H.265-PrimeFix.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/NUSS4Cbrzf",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 20,
+        "filename": "Behind.the.Curtain.Stranger.Things.The.First.Shadow.2025.1080p.NF.WEB-DL.DDP5.1.Atmos.H.265-PrimeFix.mkv",
+        "size": "1.92 GB", // Extracted from filename
+        "quality": "1080p",
+        "languages": "English | ESubs",
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 13:09:05"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/6ae418d244ef3a2190f63d705f7967f3/Behind.the.Curtain.Stranger.Things.The.First.Shadow.2025.1080p.NF.WEB-DL.DDP5.1.Atmos.H.265-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADjgcAApHW-EdQy953OMv6fxYE",
+        "gdflixLink": "https://vifix.site/gdflix/UfPtoubFzT",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 21,
+        "filename": "Behind.the.Curtain.Stranger.Things.The.First.Shadow.2025.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-PrimeFix.mkv",
+        "size": "3.37 GB", // Extracted from filename
+        "quality": "1080p",
+        "languages": "English | ESubs",
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 13:09:05"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/ff0d69fefcb104f949c7915d621ee0d2/Behind.the.Curtain.Stranger.Things.The.First.Shadow.2025.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADjAcAApHW-EdxutYRuoPMxBYE",
+        "gdflixLink": "https://vifix.site/gdflix/MrrY7nX3eB",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 22,
+        "filename": "Darna Mana Hai (2003) 720p 10bit AMZN WEBRip x265 HEVC Hindi DDP 2.0 ESubs~Ospreay.mkv",
+        "size": "1.08 GB", // Extracted from filename
+        "quality": "720p",
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 14:01:31"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/5f29a30d4d8d6af91e9c1ea9842cdd58/Darna%20Mana%20Hai%20(2003)%20720p%2010bit%20AMZN%20WEBRip%20x265%20HEVC%20Hindi%20DDP%202.0%20ESubs-Ospreay.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADkwwAAmmt8UekU_rq-fmZtxYE",
+        "gdflixLink": "https://gdlink.dev/file/lnIYAdeMt2",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 23,
+        "filename": "Darna Zaroori Hai (2006) 720p 10bit AMZN WEBRip x265 HEVC Hindi DDP 2.0 ESubs~Ospreay.mkv",
+        "size": "803.34 MB", // Extracted from filename
+        "quality": "720p",
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 14:02:54"
+        "url": null, // No Direct URL provided
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADwAwAAmmt8UdpO8TgcxSL4xYE",
+        "gdflixLink": "https://gdlink.dev/file/4MkV8RCHVJ",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 24,
+        "filename": "Pravinkoodu.Shappu.2025.2160p.SONY.WEB-DL.DDP5.1.HDR.H.265-PrimeFix.mkv",
+        "size": "7.4 GB", // Extracted from filename
+        "quality": "2160p",
+        "languages": "Hindi | Malayalam",
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 15:31:11"
+        "url": null, // No Direct URL provided
+        "telegramLink": null,
+        "gdflixLink": "https://gd.vifix.site/file/87jpETN0GC",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 25,
+        "filename": "TEST.2025.1080p.NF.WEB-DL.MULTI.DDP5.1.HDR.H265-Telly.mkv",
+        "size": "6.48 GB", // Extracted from filename
+        "quality": "1080p",
+        "languages": "multi", // Lowercase 'multi' from sheet
+        "lastUpdated": "2025-04-15", // Extracted from "4/15/2025 16:52:18"
+        "url": "https://pub-b0bac9860e1343ccab30a78d77a1a582.r2.dev/TEST.2025.1080p.NF.WEB-DL.MULTI.DDP5.1.HDR.H265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/p8nnnjbgtl8lt3u",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 26,
+        "filename": "Daredevil.Born.Again.S01E09.Straight.to.Hell.2160p.JSTAR.WEB-DL.DDP5.1.H.265-PrimeFix.mkv",
+        "size": "4.8GB", // Extracted from filename
+        "quality": "2160p",
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 8:23:58"
+        "url": null, // No Direct URL provided
+        "telegramLink": null,
+        "gdflixLink": "https://gd.vifix.site/file/dWUO3UQKhx",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 27,
+        "filename": "Daredevil.Born.Again.S01E09.Straight.to.Hell.1080p.JSTAR.WEB-DL.DDP5.1.H.265-PrimeFix.mkv",
+        "size": "1.78 GB", // Extracted from filename
+        "quality": "1080p",
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 8:28:56"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/bee361244f188127bff2a37ca190354d/Daredevil.Born.Again.S01E09.Straight.to.Hell.1080p.JSTAR.WEB-DL.DDP5.1.H.265-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADiwcAApHW-EcXPZ5pLEp-4xYE",
+        "gdflixLink": "https://gd.vifix.site/file/S73KlyI1Xi",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 28,
+        "filename": "Daredevil.Born.Again.S01E09.Straight.to.Hell.1080p.JSTAR.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "size": "1.65 GB", // Extracted from filename
+        "quality": "1080p",
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 8:30:31"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/cd066b535c295ef49b2ab0b109e0d4e8/Daredevil.Born.Again.S01E09.Straight.to.Hell.1080p.JSTAR.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADigcAApHW-EfPKC00AZUiShYE",
+        "gdflixLink": "https://gd.vifix.site/file/cCRDag2Z45",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 29,
+        "filename": "Captain America - Brave New World (2025) 2160p iT WEB-DL DV HDR 10bit HEVC [Hindi DDP 5.1 + English DDP 5.1] x265 (XEBEC-LUMiX).mkv",
+        "size": "21.25 GB", // Extracted from filename
+        "quality": "2160p",
+        "languages": "Hindi | English",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 8:47:31"
+        "url": null, // No Direct URL provided
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/file/uuKzvN4hnN",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 30,
+        "filename": "Captain America - Brave New World (2025) 2160p iT WEB-DL SDR 10bit HEVC [Hindi DDP 5.1 + English DDP 5.1] x265 (XEBEC-LUMiX).mkv",
+        "size": "18.03 GB", // Extracted from filename
+        "quality": "2160p",
+        "languages": "Hindi | English",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 8:47:31"
+        "url": null, // No Direct URL provided
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/file/IjNZEa3NzW",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 31,
+        "filename": "Captain America - Brave New World (2025) 1080p MA WEB-DL [Hindi DDP 5.1 + English DDP 5.1] x264 (BYNDR-LUMiX).mkv",
+        "size": "7.7 GB", // Extracted from filename
+        "quality": "1080p",
+        "languages": "Hindi | English",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 8:47:31"
+        "url": null, // No Direct URL provided
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/file/ZMsL5bGx1b",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 32,
+        "filename": "Gumasthan.2024.1080p.UPLY.WEB-DL.Hindi.AAC2.0.H.264-Archie.mkv",
+         // Size column was empty, extracted from filename
+        "size": "1.75 GB", // Corrected: This filename likely corresponds to 1.75 GB, not the 720p URL's size
+        "quality": "1080p",
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 11:03:06"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/bdd5131bf0d8a80a89b9f3eb81bf37c5/Gumasthan.2024.720p.UPLY.WEB-DL.Hindi.AAC2.0.H.264-Archie.mkv", // URL Mismatch? URL points to 720p version, filename is 1080p. Using provided URL.
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/mrlzHo6Won",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 33,
+        "filename": "Gumasthan.2024.720p.UPLY.WEB-DL.Hindi.AAC2.0.H.264-Archie.mkv",
+        "size": "733.66 MB", // Extracted from filename
+        "quality": "720p",
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 11:03:06"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/bdd5131bf0d8a80a89b9f3eb81bf37c5/Gumasthan.2024.720p.UPLY.WEB-DL.Hindi.AAC2.0.H.264-Archie.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/guVh9EKlqv",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 34,
+        "filename": "The.Handmaids.Tale.S06E01.2160p.HULU.WEB-DL.H.265.DDP5.1-Tyrell.mkv",
+        "size": "4.21 GB", // Extracted from filename
+        "quality": "2160p",
+        "languages": "English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 11:20:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/1253c2785c57cc5a4b343cad051ffab8/The.Handmaids.Tale.S06E01.2160p.HULU.WEB-DL.H.265.DDP5.1-Tyrell.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/jGm8pTs0nv",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 35,
+        "filename": "The.Handmaids.Tale.S06E02.2160p.HULU.WEB-DL.H.265.DDP5.1-Tyrell.mkv",
+        "size": "5.80 GB", // Extracted from filename
+        "quality": "2160p",
+        "languages": "English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 11:20:00"
+        "url": null, // No Direct URL provided
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/dBSGmilSpj",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 36,
+        "filename": "The.Handmaids.Tale.S06E03.2160p.HULU.WEB-DL.H.265.DDP5.1-Tyrell.mkv",
+        "size": "4.76 GB", // Extracted from filename
+        "quality": "2160p",
+        "languages": "English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 11:20:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/46d68d196c1fe46034a3d8e5fcd7ffbb/The.Handmaids.Tale.S06E03.2160p.HULU.WEB-DL.H.265.DDP5.1-Tyrell.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/tbOxsG0R9d",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 37,
+        "filename": "The.Handmaids.Tale.S06E04.2160p.HULU.WEB-DL.H.265.DDP5.1-Tyrell.mkv",
+        "size": "4.58 GB", // Extracted from filename
+        "quality": "2160p",
+        "languages": "English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 11:20:00"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/93892bfb4da70b991ef999ba32e147b6/The.Handmaids.Tale.S06E04.2160p.HULU.WEB-DL.H.265.DDP5.1-Tyrell.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/B2njxLvMwk",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 38,
+        "filename": "Daredevil Born Again S01E01 2160p DNSP WEB-DL HDR HEVC [Hindi DDP5.1 + English DDPA5.1] x265 (Tyrell-HiQVE).mkv",
+        "size": "6 GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:23:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Daredevil%20Born%20Again%20S01E01%202160p%20DNSP%20WEB-DL%20HDR%20HEVC%20[Hindi%20DDP5.1%20+%20English%20DDPA5.1]%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/9mu1wkwjaalawjm",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 39,
+        "filename": "Daredevil Born Again S01E02 2160p DNSP WEB-DL HDR HEVC [Hindi DDP5.1 + English DDPA5.1] x265 (Tyrell-HiQVE).mkv",
+        "size": "4GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:23:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Daredevil%20Born%20Again%20S01E02%202160p%20DNSP%20WEB-DL%20HDR%20HEVC%20[Hindi%20DDP5.1%20+%20English%20DDPA5.1]%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/elfarr98s1a8knf",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 40,
+        "filename": "Daredevil Born Again S01E03 2160p DNSP WEB-DL HDR HEVC [Hindi DDP5.1 + English DDPA5.1] x265 (Tyrell-HiQVE).mkv",
+        "size": "4GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:23:00"
+        "url": "https://pub-c0a0ef4afed74d31b975ce54eb2bd4ad.r2.dev/Daredevil%20Born%20Again%20S01E03%202160p%20DNSP%20WEB-DL%20HDR%20HEVC%20[Hindi%20DDP5.1%20+%20English%20DDPA5.1]%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/rkueu1cd3drfrwj",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 41,
+        "filename": "Daredevil Born Again S01E04 2160p DNSP WEB-DL HDR HEVC [Hindi DDP5.1 + English DDPA5.1] x265 (Tyrell-HiQVE).mkv", // Removed leading emoji ✨
+        "size": "4GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:23:00"
+        "url": "https://wispy-bread-0fb3.mexanig1569602.workers.dev/fc6c53cfd2aab43683ea4c3e3c4ae3f314e23278d0f7285ecae0ae2786deb1ce05e86994a8e4c5a1a3c27d8fd82b6a7c::501684b8ffe8f13a421939847f450404/1397278704/Daredevil%20Born%20Again%20S01E04%202160p%20DNSP%20WEB-DL%20HDR%20HEVC%20[Hindi%20DDP5.1%20+%20English%20DDPA5.1]%20x265%20(Tyrell-HiQVE).mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/poycfnr51su9m1u",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 42,
+        "filename": "Daredevil Born Again S01E05 2160p DNSP WEB-DL HDR HEVC [Hindi DDP5.1 + English DDPA5.1] x265 (Tyrell-HiQVE).mkv",
+        "size": "4GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:23:00"
+        "url": "https://pub-5683a7ab94514936a66f8588c10d33b3.r2.dev/Daredevil%20Born%20Again%20S01E05%202160p%20DNSP%20WEB-DL%20HDR%20HEVC%20[Hindi%20DDP5.1%20+%20English%20DDPA5.1]%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/unrkvgd9rhburna",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 43,
+        "filename": "Daredevil Born Again S01E06 2160p DNSP WEB-DL HDR HEVC [Hindi DDP5.1 + English DDPA5.1] x265 (Tyrell-HiQVE).mkv", // Removed leading emoji ✨
+        "size": "4GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:23:00"
+        "url": "https://pub-ed656a9452ef468181a7ec0938095628.r2.dev/Daredevil%20Born%20Again%20S01E06%202160p%20DNSP%20WEB-DL%20HDR%20HEVC%20[Hindi%20DDP5.1%20+%20English%20DDPA5.1]%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/tsstr03w2totnta",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 44,
+        "filename": "Daredevil Born Again S01E07 2160p DNSP WEB-DL HDR HEVC [Hindi DDP5.1 + English DDPA5.1] x265 (Tyrell-HiQVE).mkv", // Removed leading emoji ✨
+        "size": "4GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:23:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Daredevil%20Born%20Again%20S01E07%202160p%20DNSP%20WEB-DL%20HDR%20HEVC%20[Hindi%20DDP5.1%20+%20English%20DDPA5.1]%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/l1vyvxes1syggxo",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 45,
+        "filename": "Daredevil Born Again S01E08 2160p DNSP WEB-DL HDR HEVC [Hindi DDP5.1 + English DDPA5.1] x265 (Tyrell-HiQVE).mkv", // Removed leading emoji ✨
+        "size": "4GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:23:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Daredevil%20Born%20Again%20S01E08%202160p%20DNSP%20WEB-DL%20HDR%20HEVC%20[Hindi%20DDP5.1%20+%20English%20DDPA5.1]%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/0mc0lrxrp1g8tr8",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 46,
+        "filename": "Daredevil Born Again S01E09 2160p DNSP WEB-DL HDR HEVC [Hindi DDP5.1 + English DDPA5.1] x265 (Tyrell-HiQVE).mkv", // Removed leading emoji ✨
+        "size": "4GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:23:00"
+        "url": "https://pub-7d9d8e41e7354c5fb8b0287d498950d2.r2.dev/Daredevil%20Born%20Again%20S01E09%202160p%20DNSP%20WEB-DL%20HDR%20HEVC%20[Hindi%20DDP5.1%20+%20English%20DDPA5.1]%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/jitkiogwqq4348i",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 47,
+        "filename": "Daredevil Born Again S01E01 1080p DNSP WEB-DL [Hindi DDP5.1 + English DDP5.1] x264 (PrimeFix-HiQVE).mkv", // Removed size from filename
+        "size": "2.12GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:24:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Daredevil%20Born%20Again%20S01E01%201080p%20DNSP%20WEB-DL%20[Hindi%20DDP5.1%20+%20English%20DDP5.1]%20x264%20PrimeFix-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/mnqvjwgh1bs11pu",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 48,
+        "filename": "Daredevil Born Again S01E02 1080p DNSP WEB-DL [Hindi DDP5.1 + English DDP5.1] x264 (PrimeFix-HiQVE).mkv", // Removed leading emoji ✨ and size
+        "size": "1.73GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:24:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Daredevil%20Born%20Again%20S01E02%201080p%20DNSP%20WEB-DL%20[Hindi%20DDP5.1%20+%20English%20DDP5.1]%20x264%20PrimeFix-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/go0mg66k1ggh309",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 49,
+        "filename": "Daredevil Born Again S01E03 1080p DNSP WEB-DL [Hindi DDP5.1 + English DDP5.1] x264 (PrimeFix-HiQVE).mkv", // Removed leading emoji ✨ and size
+        "size": "1.63GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:24:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Daredevil%20Born%20Again%20S01E03%201080p%20DNSP%20WEB-DL%20[Hindi%20DDP5.1%20+%20English%20DDP5.1]%20x264%20PrimeFix-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/sgcvpz118ribgr5",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 50,
+        "filename": "Daredevil Born Again S01E04 1080p DNSP WEB-DL [Hindi DDP5.1 + English DDP5.1] x264 (PrimeFix-HiQVE).mkv", // Removed leading emoji ✨ and size
+        "size": "1.86GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:24:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Daredevil%20Born%20Again%20S01E04%201080p%20DNSP%20WEB-DL%20[Hindi%20DDP5.1%20+%20English%20DDP5.1]%20x264%20PrimeFix-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/awqdiyh13dwxqwp",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 51,
+        "filename": "Daredevil Born Again S01E05 1080p DNSP WEB-DL [Hindi DDP5.1 + English DDP5.1] x264 (PrimeFix-HiQVE).mkv", // Removed leading emoji ✨ and size
+        "size": "1.5GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:24:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Daredevil%20Born%20Again%20S01E05%201080p%20DNSP%20WEB-DL%20[Hindi%20DDP5.1%20+%20English%20DDP5.1]%20x264%20PrimeFix-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/j0pllyj9ttbtb1y",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 52,
+        "filename": "Daredevil Born Again S01E06 1080p DNSP WEB-DL [Hindi DDP5.1 + English DDP5.1] x264 (PrimeFix-HiQVE).mkv", // Removed leading emoji ✨ and size
+        "size": "1.58GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:24:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Daredevil%20Born%20Again%20S01E06%201080p%20DNSP%20WEB-DL%20[Hindi%20DDP5.1%20+%20English%20DDP5.1]%20x264%20PrimeFix-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/gio3zooyx1lligl",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 53,
+        "filename": "Daredevil Born Again S01E07 1080p DNSP WEB-DL [Hindi DDP5.1 + English DDP5.1] x264 (PrimeFix-HiQVE).mkv", // Removed leading emoji ✨ and size
+        "size": "1.43GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:24:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Daredevil%20Born%20Again%20S01E07%201080p%20DNSP%20WEB-DL%20[Hindi%20DDP5.1%20+%20English%20DDP5.1]%20x264%20PrimeFix-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/0gk0kv60fnojvgv",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 54,
+        "filename": "Daredevil Born Again S01E08 1080p DNSP WEB-DL [Hindi DDP5.1 + English DDP5.1] x264 (PrimeFix-HiQVE).mkv", // Removed leading emoji ✨ and size
+        "size": "1.82 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:24:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Daredevil%20Born%20Again%20S01E08%201080p%20DNSP%20WEB-DL%20[Hindi%20DDP5.1%20+%20English%20DDP5.1]%20x264%20PrimeFix-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/iaxlugudkkn4ktq",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 55,
+        "filename": "Daredevil Born Again S01E09 1080p DNSP WEB-DL [Hindi DDP5.1 + English DDP5.1] x264 (PrimeFix-HiQVE).mkv", // Removed leading emoji ✨ and size
+        "size": "1.96 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:24:00"
+        "url": "https://fsl.fastdl.lol/Daredevil%20Born%20Again%20S01E09%201080p%20DSNP%20WEB-DL%20[Hindi%20DDP5.1%20+%20English%20DDP5.1]%20x264%20PrimeFix-HiQVE.mkv?id=d1db2df4a8911dff83d1e18adbe1bcce6f6d882ebb2735341e918cd0e6fc9e4b9c7de43253a7fcbf1619458b51a8a6784f32d9404c0dc70df094650fe79624cce473eaf9710a7c1ab03a8cd30210eee9acae7dc5f429284cacb5dda7a0af7c346339636bea93eefa8cf3da7d0721075215962db364b131aa3b701567ddf2a0435358e5ffb2d273ad7d5b70a1a5443a79::5db82cd7a70af8a7e5f0ca2b37676b98",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/video/2lu0rk2jas21k2z",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 56,
+        "filename": "Stranger.Things.S01E01.Chapter.One.The.Vanishing.of.Will.Byers.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:25:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S01.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S01E01.Chapter.One.The.Vanishing.of.Will.Byers.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADaA0AApHWAAFEAAGhERn-55r3FgQ",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 57,
+        "filename": "Stranger.Things.S01E02.Chapter.Two.The.Weirdo.on.Maple.Street.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:25:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S01.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S01E02.Chapter.Two.The.Weirdo.on.Maple.Street.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADaQ0AApHWAAFERFkx3F845aoWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 58,
+        "filename": "Stranger.Things.S01E03.Chapter.Three.Holly.Jolly.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:25:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S01.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S01E03.Chapter.Three.Holly.Jolly.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADaw0AApHWAAFEyp-iSfLzkFMWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 59,
+        "filename": "Stranger.Things.S01E04.Chapter.Four.The.Body.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:25:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S01.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S01E04.Chapter.Four.The.Body.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADag0AApHWAAFEjlxRFAW8o9YWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 60,
+        "filename": "Stranger.Things.S01E05.Chapter.Five.The.Flea.and.the.Acrobat.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:25:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S01.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S01E05.Chapter.Five.The.Flea.and.the.Acrobat.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADbw0AApHWAAFEGEM5y7f1uegWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 61,
+        "filename": "Stranger.Things.S01E06.Chapter.Six.The.Monster.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:25:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S01.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S01E06.Chapter.Six.The.Monster.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADbQ0AApHWAAFE4j4cxcK76VsWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 62,
+        "filename": "Stranger.Things.S01E07.Chapter.Seven.The.Bathtub.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:25:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S01.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S01E07.Chapter.Seven.The.Bathtub.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADbA0AApHWAAFETm3HawpSGkkWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 63,
+        "filename": "Stranger.Things.S01E08.Chapter.Eight.The.Upside.Down.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:25:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S01.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S01E08.Chapter.Eight.The.Upside.Down.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADcg0AApHWAAFElyLott1sQ2YWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 64,
+        "filename": "Stranger.Things.S02E01.Chapter.One.MADMAX.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:50:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S02.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S02E01.Chapter.One.MADMAX.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD5AwAApHWAAFEihxR0-8WbSQWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 65,
+        "filename": "Stranger.Things.S02E02.Chapter.Two.Trick.or.Treat.Freak.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:50:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S02.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S02E02.Chapter.Two.Trick.or.Treat.Freak.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD7AwAApHWAAFEWvXP7Yv32Q8WBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 66,
+        "filename": "Stranger.Things.S02E03.Chapter.Three.The.Pollywog.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:50:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S02.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S02E03.Chapter.Three.The.Pollywog.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD6gwAApHWAAFECZFzwHZZ1mQWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 67,
+        "filename": "Stranger.Things.S02E04.Chapter.Four.Will.the.Wise.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:50:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S02.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S02E04.Chapter.Four.Will.the.Wise.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD7wwAApHWAAFEQPtPXCae0HkWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 68,
+        "filename": "Stranger.Things.S02E05.Chapter.Five.Dig.Dug.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:50:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S02.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S02E05.Chapter.Five.Dig.Dug.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD6AwAApHWAAFEnM0pWdV6OokWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 69,
+        "filename": "Stranger.Things.S02E06.Chapter.Six.The.Spy.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:50:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S02.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S02E06.Chapter.Six.The.Spy.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD8AwAApHWAAFEXJuhRHhUfU4WBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 70,
+        "filename": "Stranger.Things.S02E07.Chapter.Seven.The.Lost.Sister.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:50:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S02.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S02E07.Chapter.Seven.The.Lost.Sister.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD7QwAApHWAAFEfwGeIrzC5eQWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 71,
+        "filename": "Stranger.Things.S02E08.Chapter.Eight.The.Mind.Flayer.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:50:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S02.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S02E08.Chapter.Eight.The.Mind.Flayer.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD6wwAApHWAAFEC98YY1RIzCcWBA",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 72,
+        "filename": "Stranger.Things.S02E09.Chapter.Nine.The.Gate.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "size": "Approx. 1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:50:00"
+        "url": "https://relivin.vercel.app/api/raw/?path=/MEDIA/TV/Stranger.Things.S02.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN/Stranger.Things.S02E09.Chapter.Nine.The.Gate.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-REL1VIN.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD8QwAApHWAAFEbbcefMMAAQg_FgQ",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 73,
+        "filename": null, // Filename not provided
+        "size": "2.49 GB",
+        "quality": "1080p", // Extracted from URL
+        "languages": "English",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:55:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/A%20Working%20Man%202025%20ITunes%20DS4K%201080p%20WEBRip%2010bit%20English%20DDP5.1%20Atmos%20x265%20HEVC%20ESub%20-%20NazzY.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADYAsAApHW-EdVKApPzYMknBYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/kfrwlpdaklqopo9",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 74,
+        "filename": null, // Filename not provided
+        "size": "2.03 GB",
+        "quality": "1080p", // Extracted from URL
+        "languages": "English",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 12:55:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/A%20Working%20Man%202025%20ITunes%20DS4K%201080p%20WEBRip%2010bit%20English%20AAC5.1%20x265%20HEVC%20ESub%20-%20NazzY.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADXwsAApHW-Ed2AnOzhcGV8hYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/u1kkske6obn6rqo",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 75,
+        "filename": "Teen.Titans.Go.To.The.Movies.2018.1080p.MA.WEB-DL.DDP5.1.H.264-SARVO.mkv", // Extracted from URL
+        "size": "4.5GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English | Esubs",
+        "lastUpdated": "2025-04-16", // Extracted from "4/16/2025 23:28:38"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/38d9680476ed523cd77efafd2fb9ac63/Teen.Titans.Go.To.The.Movies.2018.1080p.MA.WEB-DL.DDP5.1.H.264-SARVO.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://gd.vifix.site/file/shZq3pFb1H",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 76,
+        "filename": "The.Diamond.Heist.S01E01.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "2.07 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 6:28:29"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/02a8727362033275ee8f5a06bee13141/The.Diamond.Heist.S01E01.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD3AwAApHWAAFEsLNPt_f3mGsWBA",
+        "gdflixLink": "https://vifix.site/gdflix/9eP31yUY7L",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 77,
+        "filename": "The.Diamond.Heist.S01E02.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "2.02 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 6:28:29"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/0b535cc1e2d0a531692256236314b8fa/The.Diamond.Heist.S01E02.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD4AwAApHWAAFEkc5P-ItmJvIWBA",
+        "gdflixLink": "https://vifix.site/gdflix/LBfcmroh3e",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 78,
+        "filename": "The.Diamond.Heist.S01E03.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "1.79 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 6:28:29"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/9c6325c361c2b19a0f5f9c1b1d43e145/The.Diamond.Heist.S01E03.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD3gwAApHWAAFEInpuK3asQ28WBA",
+        "gdflixLink": "https://vifix.site/gdflix/qUsltOaV2L",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 79,
+        "filename": "The Diamond Heist S01E01 2160p 10bit NF WEB-DL SDR [Hindi DDP5.1 + English DDP Atmos 5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "6.42 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | Msub",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 7:05:53"
+        "url": "https://pub-de8a16202310413a8f4eaf9f9f99e06e.r2.dev/The%20Diamond%20Heist%20S01E01%202160p%2010bit%20NF%20WEB-DL%20SDR%20[Hindi%20DDP5.1%20+%20English%20DDP%20Atmos%205.1]%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/yyldp7msnpnnkvw",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 80,
+        "filename": "The Diamond Heist S01E02 2160p 10bit NF WEB-DL SDR [Hindi DDP5.1 + English DDP Atmos 5.1] x265 (Tyrell-HiQVE).mkv", // Removed leading emoji 💎 and size
+        "size": "6.16 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | Msub",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 7:05:53"
+        "url": "https://pub-94bc87c3032342ac81d10e8fffa3c64f.r2.dev/The%20Diamond%20Heist%20S01E02%202160p%2010bit%20NF%20WEB-DL%20SDR%20[Hindi%20DDP5.1%20+%20English%20DDP%20Atmos%205.1]%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/mpskl7pztlosvcq",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 81,
+        "filename": "The Diamond Heist S01E03 2160p 10bit NF WEB-DL SDR [Hindi DDP5.1 + English DDP Atmos 5.1] x265 (Tyrell-HiQVE).mkv", // Removed leading emoji 💎 and size
+        "size": "5.27 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | Msub",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 7:05:53"
+        "url": "https://pub-a3caa27bc7a14519b9c358e3e86ff001.r2.dev/The%20Diamond%20Heist%20S01E03%202160p%2010bit%20NF%20WEB-DL%20SDR%20[Hindi%20DDP5.1%20+%20English%20DDP%20Atmos%205.1]%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/njjr11rpcc1xcrh",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 82,
+        "filename": "Chhaava.2025.2160p.NF.WEB-DL.DDP5.1.H.265-Telly.mkv", // Removed size from filename
+        "size": "17.47 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 7:09:15"
+        "url": "https://pub-c0a0ef4afed74d31b975ce54eb2bd4ad.r2.dev/Chhaava.2025.2160p.NF.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/u2xx1hyueu2votv",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 83,
+        "filename": "Mukkam.Post.Devach.Ghar.2025.720p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv", // Removed size from filename
+        "size": "1.11 GB", // Extracted from filename string
+        "quality": "720p", // Extracted from filename
+        "languages": "Marathi",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 7:13:50"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Mukkam.Post.Devach.Ghar.2025.720p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADQQ0AApHWAAFEtuTXJ0v1t44WBA",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/pyui47y3gcn4mlz",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 84,
+        "filename": "Mukkam.Post.Devach.Ghar.2025.1080p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv", // Removed size from filename
+        "size": "2.52 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Marathi",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 7:13:50"
+        "url": "https://pub-eb701d5f3d3e42b3aabf8031dd3515b2.r2.dev/Mukkam.Post.Devach.Ghar.2025.1080p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADQg0AApHWAAFEDmpzLz6ZYEQWBA",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/z1ipkkodakix1wn",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 85,
+        "filename": "Mukkam.Post.Devach.Ghar.2025.720p.AMZN.WEB-DL.DDP5.1.H.264-Telly.mkv", // Removed size from filename
+        "size": "2.85 GB", // Extracted from filename string
+        "quality": "720p", // Extracted from filename
+        "languages": "Marathi",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 7:13:50"
+        "url": "https://pub-e6bf5166935c4287a9646b32c3721813.r2.dev/Mukkam.Post.Devach.Ghar.2025.720p.AMZN.WEB-DL.DDP5.1.H.264-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADQw0AApHWAAFEQ-BA2l_7p8MWBA",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/z3vvvebbceeg3hx",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 86,
+        "filename": "Mukkam.Post.Devach.Ghar.2025.1080p.AMZN.WEB-DL.DDP5.1.H.264-Telly.mkv", // Removed size from filename
+        "size": "5.62 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Marathi",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 7:13:50"
+        "url": "https://pub-abe49dce3e2245899628e8b7788ecac5.r2.dev/Mukkam.Post.Devach.Ghar.2025.1080p.AMZN.WEB-DL.DDP5.1.H.264-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/ax5xa0cqurx5toq",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+     {
+        "id": 87,
+        "filename": "The.Last.of.Us.S02E01.Future.Days.1080p.MAX.WEB-DL.DDP5.1.Atmos.H.264-Spidey.mkv", // Extracted from URL
+        "size": "1.78GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English", // Extracted from language column structure
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 8:04:50"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/be0dd02806d46170c2a97f768d8594e3/The.Last.of.Us.S02E01.Future.Days.1080p.MAX.WEB-DL.DDP5.1.Atmos.H.264-Spidey.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADdw8AApHWAAFEAAH7rCGgD_CXFgQ",
+        "gdflixLink": "https://gdlink.dev/file/1DG7OHwCyz",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 88,
+        "filename": "Chapekar Brothers (2016) 720p 10bit AMZN WEBRip x265 HEVC Hindi DDP 2.0 ESubs-Ospreay.mkv", // Extracted from URL
+        "size": "1 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi | ESubs", // Inferred from filename
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 8:07:03"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/c4639b92c3f1eede8548b5e5a37e66d6/Chapekar%20Brothers%20(2016)%20720p%2010bit%20AMZN%20WEBRip%20x265%20HEVC%20Hindi%20DDP%202.0%20ESubs-Ospreay.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADmA8AApHWAAFEOqNGix7whNwWBA",
+        "gdflixLink": "https://gdlink.dev/file/nNAPR2Uxyl",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 89,
+        "filename": "Black.Mirror.S07.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey (Pack)",
+        "size": "17.36 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 8:19:19"
+        "url": null, // No direct URL provided for pack
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/pack/LlRzhIUY8l", // Treated as GDFLIX link
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 90,
+        "filename": "Black.Mirror.S07E01.Common.People.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey.mkv", // Extracted from URL
+        "size": "2.48 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 8:29:42"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/d8b9b96bbfe3be5fca1a260d981050b8/Black.Mirror.S07E01.Common.People.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADmg8AApHWAAFEQe1U2nCTcS4WBA",
+        "gdflixLink": "https://new6.gdflix.dad/file/JGDstT9fyv",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 91,
+        "filename": "Black.Mirror.S07E02.Bete.Noire.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey.mkv", // Extracted from URL
+        "size": "2.18 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 8:29:42"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/ae98ecfc5484dd47ed6010461d38aa62/Black.Mirror.S07E02.Bete.Noire.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADmw8AApHWAAFEciv22NfiIOcWBA",
+        "gdflixLink": "https://new6.gdflix.dad/file/zSyme2cO5q",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 92,
+        "filename": "Black.Mirror.S07E03.Hotel.Reverie.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey.mkv", // Extracted from URL
+        "size": "4.12 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 8:29:42"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/8749bb7a9774a6cc8b22aee684635e6f/Black.Mirror.S07E03.Hotel.Reverie.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://new6.gdflix.dad/file/WpfEjPXrhS",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 93,
+        "filename": "Black.Mirror.S07E04.Plaything.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey.mkv", // Extracted from URL
+        "size": "2.26 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 8:29:42"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/2138779cbb497ac25acdcbb99d20eb00/Black.Mirror.S07E04.Plaything.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADnw8AApHWAAFE7DrgfMV_l8oWBA",
+        "gdflixLink": "https://new6.gdflix.dad/file/GLtNDYN8Nz",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 94,
+        "filename": "Black.Mirror.S07E05.Eulogy.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey.mkv", // Extracted from URL
+        "size": "2.38 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 8:29:42"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/b59c88e9755501f73d88b36a7f53e431/Black.Mirror.S07E05.Eulogy.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADow8AApHWAAFEic137yu720gWBA",
+        "gdflixLink": "https://new6.gdflix.dad/file/RFNbKDCBNn",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 95,
+        "filename": "Black.Mirror.S07E06.USS.Callister.Into.Infinity.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey.mkv", // Extracted from URL
+        "size": "3.94 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 8:29:42"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/d93113b3d731539d3478e0f6608cdc63/Black.Mirror.S07E06.USS.Callister.Into.Infinity.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-Spidey.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://new6.gdflix.dad/file/WqZeiKPoi8",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 96,
+        "filename": "Paani 2024 AMZN 1080p WEBRip 10bit Hindi DDP2.0 x265 HEVC ESub - NazzY.mkv", // Extracted from URL
+        "size": "3.67 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 10:43:03"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Paani%202024%20AMZN%201080p%20WEBRip%2010bit%20Hindi%20DDP2.0%20x265%20HEVC%20ESub%20-%20NazzY.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADeA8AApHWAAFE_O545wKqU6kWBA",
+        "gdflixLink": "https://gdlink.dev/file/BcN73dejPj",
+        "hubcloudLink": "https://hubcloud.ink/drive/cpusiagbnbgr1ta",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 97,
+        "filename": "Twisters.2024.1080p.NF.WEB-DL.DDP5.1.AV1-PMI.mkv", // Removed size from filename
+        "size": "1.48 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "English",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 16:41:15"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/13b79d281488481428cf292fa6913c8e/Twisters.2024.1080p.NF.WEB-DL.DDP5.1.AV1-PMI.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD9AcAAgd2CUQPElwb8UZC_BYE",
+        "gdflixLink": "https://gdlink.dev/file/KlKv6Ws7eN",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 98,
+        "filename": "The.Wheel.of.Time.S03.2160p.AMZN.WEB-DL.DDP5.1.H.265-Tyrell", // Removed size from filename
+        "size": "57.82GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 16:41:15"
+        "url": null, // No direct URL for pack
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/pack/K96VAxIsdr",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 99,
+        "filename": "The.Wheel.of.Time.S03.2160p.AMZN.WEB-DL.HDR.H.265.DDP5.1-Tyrell", // Removed size from filename
+        "size": "56.58GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 16:41:15"
+        "url": null, // No direct URL for pack
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/pack/DBMbFJcTA7",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 100,
+        "filename": "The.Legend.of.Hanuman.S06E01.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv", // Removed size from filename
+        "size": "433.65 MB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:29:15"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/17404067450c52f35c15ffc312b2f5ce/The.Legend.of.Hanuman.S06E01.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD_gcAAgd2CUQyoFkE29wT6BYE",
+        "gdflixLink": "https://gdlink.dev/file/w2TRUZhZvf",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 101,
+        "filename": "The.Legend.of.Hanuman.S06E02.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv", // Removed leading emoji ✨ and size
+        "size": "430.92 MB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:29:15"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/1209eba566a53731cf9023345126e61f/The.Legend.of.Hanuman.S06E02.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAECAACB3YJRJSRbcTjnT46FgQ",
+        "gdflixLink": "https://gdlink.dev/file/oZhQdVMtY4",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 102,
+        "filename": "The.Legend.of.Hanuman.S06E03.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv", // Removed leading emoji ✨ and size
+        "size": "439.93 MB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:29:15"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/65b209d9ee37f7e45d00948af39fbff3/The.Legend.of.Hanuman.S06E03.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADAwgAAgd2CUSuUm7bYfBH4RYE",
+        "gdflixLink": "https://gdlink.dev/file/MTgOlGQybL",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 103,
+        "filename": "The.Legend.of.Hanuman.S06E04.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv", // Removed leading emoji ✨ and size
+        "size": "567.07 MB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:29:15"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/b23420b56aa0274f15bb20e5976453e6/The.Legend.of.Hanuman.S06E04.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADCAgAAgd2CUQenS4lLs3ZHxYE",
+        "gdflixLink": "https://gdlink.dev/file/7Mep7yiAwR",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 104,
+        "filename": "The.Legend.of.Hanuman.S06E05.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv", // Removed leading emoji ✨ and size
+        "size": "453.43 MB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:29:15"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/92277ef86eb1574d8fb40938f79e417c/The.Legend.of.Hanuman.S06E05.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADBwgAAgd2CURvJ6yM-sD2XhYE",
+        "gdflixLink": "https://gdlink.dev/file/4cNo3mIGrY",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 105,
+        "filename": "The.Legend.of.Hanuman.S06E06.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv", // Removed leading emoji ✨ and size
+        "size": "438.31 MB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:29:15"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/bcaf28929c0c220fecddd721aa836c38/The.Legend.of.Hanuman.S06E06.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADCggAAgd2CUSXaNsLH_sE_hYE",
+        "gdflixLink": "https://gdlink.dev/file/X5DXgn8irH",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 106,
+        "filename": "The.Legend.of.Hanuman.S06E07.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv", // Removed leading emoji ✨ and size
+        "size": "551.94 MB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:29:15"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/7b9bec268ff9897a94bbd5e41c6959fb/The.Legend.of.Hanuman.S06E07.1080p.HS.WEB-DL.Hindi.DDP5.1.H.264-ZafarSupari.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADDAgAAgd2CUQ5447IW7qFsRYE",
+        "gdflixLink": "https://gdlink.dev/file/PMbhRa49va",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 107,
+        "filename": "Ransom.Canyon.S01E01.Dont.Let.Me.Fall.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "3.13 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English | ESubs", // Changed emoji to pipe
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:59:00"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/3acabcada2ee443ef4acfd14d974348e/Ransom.Canyon.S01E01.Dont.Let.Me.Fall.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADewwAAgd2CURttx9ajGtiVRYE",
+        "gdflixLink": "https://gd.vifix.site/file/FV6CXo35aGM8",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 108,
+        "filename": "Ransom.Canyon.S01E02.Sure.as.the.Day.Is.Long.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "2.52 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English | ESubs", // Changed emoji to pipe
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:59:00"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/88679997ac5982509f4423b66ba5607d/Ransom.Canyon.S01E02.Sure.as.the.Day.Is.Long.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADdQwAAgd2CUTrHSgjTfLYHRYE",
+        "gdflixLink": "https://gd.vifix.site/file/GNC3zelgS3QF",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 109,
+        "filename": "Ransom.Canyon.S01E03.Trouble.Can.Be.Fun.Sometimes.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "2.76 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English | ESubs", // Changed emoji to pipe
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:59:00"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/9a2c14460954d5a296a2bafab098222a/Ransom.Canyon.S01E03.Trouble.Can.Be.Fun.Sometimes.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADfQwAAgd2CUTqNneY4mLg-xYE",
+        "gdflixLink": "https://gd.vifix.site/file/IX3vGhdC1uRa",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 110,
+        "filename": "Ransom.Canyon.S01E04.That.Boy.Is.My.Whole.Heart.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "2.86 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English | ESubs", // Changed emoji to pipe
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:59:00"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/1b6d9a78ceb55c8e9b1b7837b76034cc/Ransom.Canyon.S01E04.That.Boy.Is.My.Whole.Heart.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADjgwAAgd2CUQ5EXL4f4MNlxYE",
+        "gdflixLink": "https://gd.vifix.site/file/JgnZV494he9D",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 111,
+        "filename": "Ransom.Canyon.S01E05.I.Love.a.Good.Secret.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "1.74 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English | ESubs", // Changed emoji to pipe
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:59:00"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/b021c78f05882d70c144cfa0e5a865de/Ransom.Canyon.S01E05.I.Love.a.Good.Secret.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADbgwAAgd2CURWK7H9aankshYE",
+        "gdflixLink": "https://gd.vifix.site/file/BtavLJdYJJJk",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 112,
+        "filename": "Ransom.Canyon.S01E06.We.Need.to.Talk.About.Reid.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "2.69 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English | ESubs", // Changed emoji to pipe
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:59:00"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/29c92e989797fa54d40d54874ded60e0/Ransom.Canyon.S01E06.We.Need.to.Talk.About.Reid.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADfwwAAgd2CURgBOOEKVTXYxYE",
+        "gdflixLink": "https://gd.vifix.site/file/64GPND535TGt",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 113,
+        "filename": "Ransom.Canyon.S01E07.By.the.Grace.of.God.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "2.91 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English | ESubs", // Changed emoji to pipe
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:59:00"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/a01e333820036ae2fc191296c3ea3b0e/Ransom.Canyon.S01E07.By.the.Grace.of.God.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADlgwAAgd2CUQa1LwMkcZ6ahYE",
+        "gdflixLink": "https://gd.vifix.site/file/ivGZvNyOHeNz",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 114,
+        "filename": "Ransom.Canyon.S01E08.The.Bad.Seed.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "2.97 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English | ESubs", // Changed emoji to pipe
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:59:00"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/b1e120befa3008681989861f3fc0eba1/Ransom.Canyon.S01E08.The.Bad.Seed.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADmAwAAgd2CUQ6iIJb0E_nYBYE",
+        "gdflixLink": "https://gd.vifix.site/file/PDNkwzXJ8NzC",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 115,
+        "filename": "Ransom.Canyon.S01E09.About.Forever.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "3.29 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English | ESubs", // Changed emoji to pipe
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:59:00"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/6206a128a55653526ce73f6711d0a51d/Ransom.Canyon.S01E09.About.Forever.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADogwAAgd2CUTiDbrVs6cS6RYE",
+        "gdflixLink": "https://gd.vifix.site/file/mjhDoA8qtLzC",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 116,
+        "filename": "Ransom.Canyon.S01E10.Maybe.Its.Time.Yancy.Grey.Dies.Too.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv", // Removed size from filename
+        "size": "3.11 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English | ESubs", // Changed emoji to pipe
+        "lastUpdated": "2025-04-17", // Extracted from "4/17/2025 18:59:00"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/b142ddb0206e6237fb8a14c24dda1bd5/Ransom.Canyon.S01E10.Maybe.Its.Time.Yancy.Grey.Dies.Too.1080p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADEgcAAgd2EUSqD0eKC53Q5BYE",
+        "gdflixLink": "https://gd.vifix.site/file/ITFxtMhWVVvI",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 117,
+        "filename": "Mere.Husband.Ki.Biwi.2025.2160p.HS.WEB-DL.DDP5.1.H.265-Telly.mkv", // Removed size from filename
+        "size": "10.55 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 11:05:00"
+        "url": "https://pub-c0a0ef4afed74d31b975ce54eb2bd4ad.r2.dev/Mere.Husband.Ki.Biwi.2025.2160p.HS.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/2imnb1uymn1nopi",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 118,
+        "filename": "Mere.Husband.Ki.Biwi.2025.1080p.HS.WEB-DL.DDP5.1.H.265-Telly.mkv", // Removed size from filename
+        "size": "1.9 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 11:05:00"
+        "url": "https://pub-2577c9a5d283465a898a2debba9de173.r2.dev/Mere.Husband.Ki.Biwi.2025.1080p.HS.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADwwwAAgd2EUTwM2VvwwjnfhYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/onlju1oxvmjjx0n",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 119,
+        "filename": "Mere.Husband.Ki.Biwi.2025.720p.HS.WEB-DL.DDP5.1.H.265-Telly.mkv", // Removed size from filename
+        "size": "855.71 MB", // Extracted from filename string
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 11:05:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Mere.Husband.Ki.Biwi.2025.720p.HS.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADvgwAAgd2EUTfGfMhf9KfyxYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/6hmgseixnhi4pc4",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 120,
+        "filename": "Mere.Husband.Ki.Biwi.2025.1080p.HS.WEB-DL.DDP5.1.x264-Telly.mkv", // Removed size from filename
+        "size": "3.37 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 11:05:00"
+        "url": "https://pub-180d7849271441afb4f19b9e91fc719e.r2.dev/Mere.Husband.Ki.Biwi.2025.1080p.HS.WEB-DL.DDP5.1.x264-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADzwwAAgd2EUSb6wxh2NeNmRYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/pugstwgwkwsd5x5",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 121,
+        "filename": "Mere.Husband.Ki.Biwi.2025.720p.HS.WEB-DL.DDP5.1.x264-Telly.mkv", // Removed size from filename
+        "size": "1.45 GB", // Extracted from filename string
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 11:05:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Mere.Husband.Ki.Biwi.2025.720p.HS.WEB-DL.DDP5.1.x264-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADwAwAAgd2EUSgKGZlGyjMMRYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/j171czhkc11rygd",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 122,
+        "filename": "Khauf.S01E01.Ladies.Hostel.2160p.AMZN.WEB-DL.DDP5.1.HDR10.H.265-Spidey.mkv",
+        "size": "5.88 GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 11:15:00"
+        "url": "https://aws-trial.xyzcdn.cloud/dbb5259eb0f30bfdca9d6fc5f911942b99bb34d89166340c014f5d0a9b0e494cbb25dd650bcbcd03fee245b4687b907bbe39b53bab8a20b4b61ed8005486e194d53e593272b2e7c0e9f14cb0ea77c332bd42bd48af84a8eea13797136984ee91fb139ac3de2c4d1191e176ead1d9280522723118a1dd7c0fef3101e364772f1a12d579b534795780b818d830271e2fb5f86b0b717c66415763b51de66040b40c3e30c59c0dcd032be78dfc85ee2a81bc::ab3be36e01dbc20741e27b8dc9000fa3/Khauf.S01E01.Ladies.Hostel.2160p.AMZN.WEB-DL.DDP5.1.HDR10.H.265-Spidey.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://new6.gdflix.dad/file/DXsaoOxks0YVsRY",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 123,
+        "filename": "Khauf.S01E02.Stalker.2160p.AMZN.WEB-DL.DDP5.1.HDR10.H.265-Spidey.mkv", // Extracted from URL
+        "size": "6.14gb",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 11:15:00"
+        "url": "https://first.xyzcdn.cloud/26f7b619df9e0c004a087fd55332efa756772d5c4489f1adceb0cdac0300784087375891bc63a0dfe6385dcf1b3d15d97c8011ece0928f1701c3df032dbb76953123ae5b5b03a91aff96d2dc214a81d55a4df013da63ba07bd302e807e15d7422305a32a25b0615d3928f9efc6821fd9ceb0f296fbfdd0a9d67164f46d219b145200f17c1509ae3b222087e72c9555657f8b1855b9d04b6745402c584416106df141c2f9ffd64c3600853b75d762e134::62355d5c92d4ad8ffe3d89925fa0d082/Khauf.S01E02.Stalker.2160p.AMZN.WEB-DL.DDP5.1.HDR10.H.265-Spidey.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://new6.gdflix.dad/file/TiEDdjsaqhj2TNB",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 124,
+        "filename": "Khauf.S01E03.Venom.2160p.AMZN.WEB-DL.DDP5.1.HDR10.H.265-Spidey.mkv", // Extracted from URL
+        "size": "6.78 gb",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 11:15:00"
+        "url": "https://asia.xyzcdn.cloud/950fd569a7174394d73929a06c5835c48f58a1ccbcdd87b9de13e8c2b6a4dcea1436ea0c9c92d93c3e521836eae8a956a88514129870f18b31bc4075445256422db59b9421fab8561e80367a59cc434148eaf6c40748200643186df6eaa2febe4f6896671cb84fb39675293157d428a046be79b924b07e3713a63b7f87872c1d2ec07b84ac6df53d99f0792c05489e53c8bc6a75cb10ce9cc2675fd085d235683660c45b0d4f36e68e8e7da21e685daa::fd9e2e6febcf328cfe20cad185aef5ff/Khauf.S01E03.Venom.2160p.AMZN.WEB-DL.DDP5.1.HDR10.H.265-Spidey.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://new6.gdflix.dad/file/tSCKTczfiDWdf2V",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 125,
+        "filename": "Captain America - Brave New World (2025) MA DS4K 1080p WEBRip 10bit (English DDP5.1 Atmos + Hindi DDP5.1) x265 HEVC ESub - NazzY",
+        "size": "3.11GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English | Hindi | Esubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 12:50:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Captain%20America%20-%20Brave%20New%20World%202025%20MA%20DS4K%201080p%20WEBRip%2010bit%20English%20DDP5.1%20Atmos%20+%20Hindi%20DDP5.1%20x265%20HEVC%20ESub%20-%20NazzY.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADzAwAAgd2EUSbN17g99rSqxYE",
+        "gdflixLink": "https://gdlink.dev/file/EJVp9yxUpUaazIF",
+        "hubcloudLink": "https://hubcloud.ink/drive/iswnirtlp6lniu1",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 126,
+        "filename": "Paani.Hindi.2024.720p.AMZN.WEB-DL.DDP2.0.H.265-Telly.mkv", // Removed size from filename
+        "size": "1.03 GB", // Extracted from filename string
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 13:00:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Paani.Hindi.2024.720p.AMZN.WEB-DL.DDP2.0.H.265-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADOQkAAqrHEUT4mBlOIxHmExYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/1dgebnogaigygny",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 127,
+        "filename": "Paani.Hindi.2024.1080p.AMZN.WEB-DL.DDP2.0.H.265-Telly.mkv", // Removed size from filename
+        "size": "4.47 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Esubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 13:00:00"
+        "url": "https://pub-7eb92c30190547cb8936331e4eb38a7f.r2.dev/Paani.Hindi.2024.1080p.AMZN.WEB-DL.DDP2.0.H.265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/kj41oo4dh1atjhv",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 128,
+        "filename": "The Pitt S01E01 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.73 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-efb8dca7320b493ab9c71b8bbcd69729.r2.dev/The%20Pitt%20S01E01%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/0zaznad1evegdca",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 129,
+        "filename": "The Pitt S01E02 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.4 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-45be69fd41714360adc28a72238c2d0b.r2.dev/The%20Pitt%20S01E02%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/muvrhxruxpgotud",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 130,
+        "filename": "The Pitt S01E03 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.81 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-3ab2d9c6c59b4489ba8d0d84954cd506.r2.dev/The%20Pitt%20S01E03%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/7xcmtcwxkknnpdc",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 131,
+        "filename": "The Pitt S01E04 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.83 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-d564dacfdd194ea89ee07ae8c12ab3b9.r2.dev/The%20Pitt%20S01E04%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/jc1edmgim8uajn6",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 132,
+        "filename": "The Pitt S01E05 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.6 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-40616e5649784c2c87057420f72ee6d4.r2.dev/The%20Pitt%20S01E05%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/8srwse2oed072di",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 133,
+        "filename": "The Pitt S01E06 1080p CRAV WEB-DL [Hindi AAC2.0 + English DD5.1] H264 (PrimeFix-HiQVE).mkv", // Removed size from filename
+        "size": "1.85 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/The%20Pitt%20S01E06%201080p%20CRAV%20WEB-DL%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.1%5D%20H264%20PrimeFix-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/hapbha931rxeaxr",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 134,
+        "filename": "The Pitt S01E07 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.38 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-be1b8c199752448d8f40cfb35ebe79ea.r2.dev/The%20Pitt%20S01E07%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/whigijaxqfagjeh",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 135,
+        "filename": "The Pitt S01E08 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.51 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-eb66ffa4be014b8382d81fe7612d53c0.r2.dev/The%20Pitt%20S01E08%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/l0es1ilehx26xpw",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 136,
+        "filename": "The Pitt S01E09 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.45 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-c400b84c073246ab8a3ca8a3d8532333.r2.dev/The%20Pitt%20S01E09%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/zdhovz7h7u7aafv",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 137,
+        "filename": "The Pitt S01E10 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.81 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-56d128fb98684e8ba0cad0862ea731e7.r2.dev/The%20Pitt%20S01E10%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/phglp3rhz11zrpb",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 138,
+        "filename": "The Pitt S01E11 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.87 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-9cdd27e9f05d4a6b93dda3883e80c1cf.r2.dev/The%20Pitt%20S01E11%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/9hxutypr1pjz6gp",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 139,
+        "filename": "The Pitt S01E12 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.05 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-ecb6c13fe7974ed0b38f2ba30ae71b73.r2.dev/The%20Pitt%20S01E12%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/tomg5vv51y0vtqt",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 140,
+        "filename": "The Pitt S01E13 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.48 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-e9d6c25d8f104752a2fd02268bae6010.r2.dev/The%20Pitt%20S01E13%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/xxrobaikbn7oqan",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 141,
+        "filename": "The Pitt S01E14 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "4.47 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-95215675998a4f38b2c987fe2e590815.r2.dev/The%20Pitt%20S01E14%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/ts8x2ijpsyayyjr",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 142,
+        "filename": "The Pitt S01E15 2160p 10bit CRAV WEB-DL HEVC [Hindi AAC2.0 + English DD5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "5.59 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 15:16:40"
+        "url": "https://pub-eb7c7504a1ed48ecafe82d1ddafbda39.r2.dev/The%20Pitt%20S01E15%202160p%2010bit%20CRAV%20WEB-DL%20HEVC%20%5BHindi%20AAC2.0%20%2B%20English%20DD5.%201%5D%20x265%20Tyrell-HiQVE.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/all1qhhzb11qgzm",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 143,
+        "filename": "Sweetheart.2025.1080p.HS.WEB-DL.DUAL.DDP5.1.H.264-Anup.mkv", // Extracted from URL
+        "size": "3.6 gb",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Tamil | Esubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 17:45:38"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/b139f5ba5d2c458c414c81829dcc922f/Sweetheart.2025.1080p.HS.WEB-DL.DUAL.DDP5.1.H.264-Anup.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/e0sTyzvUzT",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 144,
+        "filename": "The.Wheel.of.Time.S03.720p.AMZN.WEB-DL.Hindi-English.DDP5.1.H.265-PrimeFix.tar", // Removed size from filename
+        "size": "6.82 GB", // Extracted from filename string
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 18:40:29"
+        "url": null, // Pack file, no direct URL
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADaQ4AAqrHEUR1DQgp5s4tFxYE",
+        "gdflixLink": "https://vifix.site/gdflix/3EhYOcjsFWqyQZZ",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 145,
+        "filename": "The.Wheel.of.Time.S03.1080p.AMZN.WEB-DL.Hindi-English.DDP5.1.H.265-PrimeFix.tar", // Removed size from filename
+        "size": "11.28 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | English | ESubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 18:40:29"
+        "url": null, // Pack file, no direct URL
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADtBIAAqrHEUQgz2tRS5-22BYE",
+        "gdflixLink": "https://vifix.site/gdflix/BgwMxGqge2T0hML",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 146,
+        "filename": "Chiki.Chiki.Buboom.Boom.2025.720p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv", // Removed size from filename
+        "size": "1.4 GB", // Extracted from filename string
+        "quality": "720p", // Extracted from filename
+        "languages": "Marathi | Esubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 18:40:29"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Chiki.Chiki.Buboom.Boom.2025.720p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADSg4AAqrHEUTNxTPwo4jbQBYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/uehkqe0cesbqtee",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 147,
+        "filename": "Chiki.Chiki.Buboom.Boom.2025.1080p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv", // Removed size from filename
+        "size": "3.39 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Marathi | Esubs",
+        "lastUpdated": "2025-04-18", // Extracted from "4/18/2025 18:40:29"
+        "url": "https://pub-a7406548861040e2ba04df87f84438ec.r2.dev/Chiki.Chiki.Buboom.Boom.2025.1080p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD0hIAAqrHEUQFjAJ7m4DG-hYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/jzzbuideiasjjb3",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+     {
+        "id": 148,
+        "filename": "Ransom Canyon S01 (2025) 2160p NF WEB-DL 10bit DoVi HDR [Hindi DDP 5.1 + English DDP.Atmos 5.1] H.265 (HHWEB-Ionicboy)",
+        "size": null, // Size not specified
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | Esubs", // Corrected 'Englsih'
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 7:45:00"
+        "url": null, // Pack file, no direct URL
+        "telegramLink": null,
+        "gdflixLink": "https://ZiddiFlix.com/pack/zMXXowKDnR",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 149,
+        "filename": "Ransom Canyon S01 2160p NF WEB-DL 10bit SDR [Hindi DDP 5.1 + English DDP.Atmos 5.1] H.265 (Tyrell-Ionicboy)",
+        "size": null, // Size not specified
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | English | Esubs", // Corrected 'Englsih'
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 7:45:00"
+        "url": null, // Pack file, no direct URL
+        "telegramLink": null,
+        "gdflixLink": "https://ZiddiFlix.com/pack/WOL6RkX7EO",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 150,
+        "filename": "Sikandar.2025.HQ.1080p.Hindi.WEB-DL.DD2.0.HC-ESub.x264-HDHub4u.Ms.mkv", // Removed leading emoji ⚡ and size
+        "size": "9.28 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 7:45:00"
+        "url": "https://pub-ecb78848eb50403892c1ce2ad398c9cb.r2.dev/Sikandar.2025.HQ.1080p.Hindi.WEB-DL.DD2.0.HC-ESub.x264-HDHub4u.Ms.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/n7arm7ealllnbbb",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 151,
+        "filename": "Sikandar.2025.4K-SDR.Hindi.WEB-DL.DD2.0.HC-ESub.x264-HDHub4u.Ms.mkv", // Removed leading emoji ⚡ and size
+        "size": "19.31 GB", // Extracted from filename string
+        "quality": "4K", // Extracted from filename
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 7:45:00"
+        "url": "https://pub-c0a0ef4afed74d31b975ce54eb2bd4ad.r2.dev/Sikandar.2025.4K-SDR.Hindi.WEB-DL.DD2.0.HC-ESub.x264-HDHub4u.Ms.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/qywthvll5uitpuq",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 152,
+        "filename": "iHostage (2025) NF 1080p WEBRip 10bit HIN-TAM DDP5.1 x265 HEVC ESub - NazzY", // Removed size from filename
+        "size": "2.54 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | Tamil | Esubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 8:40:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/iHostage%202025%20NF%201080p%20WEBRip%2010bit%20HIN-TAM%20DDP5.1%20x265%20HEVC%20ESub%20-%20NazzY.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD0gsAAqrHGUR5kG-62O8vSRYE",
+        "gdflixLink": "https://gdlink.dev/file/UAblX5ZOuWDb3la",
+        "hubcloudLink": "https://hubcloud.ink/drive/iwppmxuvc8rj4iq",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 153,
+        "filename": "iHostage.2025.720p.NF.WEB-DL.Multi.AAC5.1.H.265-CPTN5DW.mkv", // Removed size from filename
+        "size": "1.1GB", // Extracted from filename string
+        "quality": "720p", // Extracted from filename
+        "languages": "Dutch | Hindi | Tamil | English",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 8:40:00"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/iHostage.2025.720p.NF.WEB-DL.Multi.AAC5.1.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADtg4AAqrHGURms-LyhSYgoRYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/uspftyntatliscf",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 154,
+        "filename": "The.Wheel.of.Time.S03E01.To.Race.The.Shadow.1080p.AMZN.WEB-DL.Multi.DD+5.1.H.265-CPTN5DW.mkv",
+        "size": "2.66GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/7114d634a76c631c21cb36baef10c905/The.Wheel.of.Time.S03E01.To.Race.The.Shadow.1080p.AMZN.WEB-DL.Multi.DD%2B5.1.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADDA8AAqrHGUSlGCqWVrdDMxYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 155,
+        "filename": "The.Wheel.of.Time.S03E02.A.Question.of.Crimson.1080p.AMZN.WEB-DL.Multi.DD+5.1.H.265-CPTN5DW.mkv",
+        "size": "2.45GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/95e7705463400042edbf3a4055579c41/The.Wheel.of.Time.S03E02.A.Question.of.Crimson.1080p.AMZN.WEB-DL.Multi.DD%2B5.1.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADEw8AAqrHGUTf-0w5T0LtKBYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 156,
+        "filename": "The.Wheel.of.Time.S03E03.Seeds.of.Shadow.1080p.AMZN.WEB-DL.Multi.DD+5.1.H.265-CPTN5DW.mkv",
+        "size": "2.35GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/2a16f280b625b4ebca75d065a6a41fff/The.Wheel.of.Time.S03E03.Seeds.of.Shadow.1080p.AMZN.WEB-DL.Multi.DD%2B5.1.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADEg8AAqrHGUQoQpNNAjrKDhYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 157,
+        "filename": "The.Wheel.of.Time.S03E04.The.Road.to.the.Spear.1080p.AMZN.WEB-DL.Multi.DD+5.1.H.265-CPTN5DW.mkv",
+        "size": "2.84GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/1f69b5284457f9fecf16c0e9b1673e43/The.Wheel.of.Time.S03E04.The.Road.to.the.Spear.1080p.AMZN.WEB-DL.Multi.DD%2B5.1.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADgwQAAuYdIUQWfFAIN-644RYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 158,
+        "filename": "The.Wheel.of.Time.S03E05.Telaranrhiod.1080p.AMZN.WEB-DL.Multi.DD+5.1.H.265-CPTN5DW.mkv",
+        "size": "2.56GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/5610236363a8a26000384e79393550e5/The.Wheel.of.Time.S03E05.Telaranrhiod.1080p.AMZN.WEB-DL.Multi.DD%2B5.1.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADjAQAAuYdIUQ2tVXEli-mwhYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 159,
+        "filename": "The.Wheel.of.Time.S03E06.The.Shadow.in.the.Night.1080p.AMZN.WEB-DL.Multi.DD+5.1.H.265-CPTN5DW.mkv",
+        "size": "2.51GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/6b6d4c68cc550b7859813bffd4cd2286/The.Wheel.of.Time.S03E06.The.Shadow.in.the.Night.1080p.AMZN.WEB-DL.Multi.DD%2B5.1.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADiAQAAuYdIURNAr137XIydxYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 160,
+        "filename": "The.Wheel.of.Time.S03E07.Goldeneyes.1080p.AMZN.WEB-DL.Multi.DD+5.1.H.265-CPTN5DW.mkv",
+        "size": "2.4GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/7146fe4a9951c63f2486c7f642d87a5f/The.Wheel.of.Time.S03E07.Goldeneyes.1080p.AMZN.WEB-DL.Multi.DD%2B5.1.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADgQQAAuYdIUT6XER29W1KcxYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 161,
+        "filename": "The.Wheel.of.Time.S03E08.He.Who.Comes.With.The.Dawn.1080p.AMZN.WEB-DL.Multi.DD+5.1.H.265-CPTN5DW.mkv",
+        "size": "3.1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://asia.xyzcdn.cloud/a109178eec4d90ea4c26f8fae770cb0fb12b108bb199df7564d063436f30e3e98ff2136a95778b4e50b3b89d4a7c8d2b8082bb9f505310114b1bb93d356e01d5ba995f04678a16455627eedb7d39ec1fd0cdd93b08f974e79efc5e692ca1b1cc3c2b0e996bf6594a95c7e8c14e45d4f95f5d0ecbf19f050816be9ec2229d55e209eb58a68ce7632eefb5ee9c9a40917c2074c5d9b107cac7e8e89b8822f0e36544b206ef9818eb3ee0f3da8d0c77cc7d::3833c14572cf610a9d72a47c35a35c59/The.Wheel.of.Time.S03E08.He.Who.Comes.With.The.Dawn.1080p.AMZN.WEB-DL.Multi.DD+5.1.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADhgQAAuYdIUSDyukqZxv9rxYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 162,
+        "filename": "The.Wheel.of.Time.S03E01.To.Race.The.Shadow.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "size": "654.85MB",
+        "quality": "720p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/083007e4eb535ca9dfc0e5222a84df15/The.Wheel.of.Time.S03E01.To.Race.The.Shadow.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADlwQAAuYdIUQsoLEk2tbv2xYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 163,
+        "filename": "The.Wheel.of.Time.S03E02.A.Question.of.Crimson.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "size": "596.05MB",
+        "quality": "720p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/1268f6a0006ac5c4bc7bcf36f7b1add6/The.Wheel.of.Time.S03E02.A.Question.of.Crimson.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADmAQAAuYdIUT-SbPkBtmJoRYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 164,
+        "filename": "The.Wheel.of.Time.S03E03.Seeds.of.Shadow.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "size": "550.45MB",
+        "quality": "720p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/98a2ab03bdca21d5bbd6838dd081a505/The.Wheel.of.Time.S03E03.Seeds.of.Shadow.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADmQQAAuYdIUQB30HbVM-iJBYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 165,
+        "filename": "The.Wheel.of.Time.S03E04.The.Road.to.the.Spear.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "size": "679.67MB",
+        "quality": "720p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/8312238248736c2edaea1bd65daf2445/The.Wheel.of.Time.S03E04.The.Road.to.the.Spear.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADmwQAAuYdIUTEJcvF34bIjBYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 166,
+        "filename": "The.Wheel.of.Time.S03E05.Telaranrhiod.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "size": "615.87MB",
+        "quality": "720p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/bf75b2b50e19eaa9f17569b2aaeb7ff6/The.Wheel.of.Time.S03E05.Telaranrhiod.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADngQAAuYdIUTJslCPRLLOtRYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 167,
+        "filename": "The.Wheel.of.Time.S03E06.The.Shadow.in.the.Night.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "size": "582.09MB",
+        "quality": "720p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/cb9404971e0a782e19b9215c3fb97721/The.Wheel.of.Time.S03E06.The.Shadow.in.the.Night.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADnwQAAuYdIUTUtvJaoxSdCBYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 168,
+        "filename": "The.Wheel.of.Time.S03E07.Goldeneyes.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "size": "606.11MB",
+        "quality": "720p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/cec88e72740155aa3695e3068b3f56f7/The.Wheel.of.Time.S03E07.Goldeneyes.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADoAQAAuYdIUT18vMTJ15qahYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 169,
+        "filename": "The.Wheel.of.Time.S03E08.He.Who.Comes.With.The.Dawn.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "size": "749.94MB",
+        "quality": "720p", // Extracted from filename
+        "languages": "English | Malayalam | Tamil | Telugu | Hindi | Kannada",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/4bfa7dec8fc51896fc34a2fbc76fb52a/The.Wheel.of.Time.S03E08.He.Who.Comes.With.The.Dawn.720p.AMZN.WEB-DL.Multi.AAC2.0.H.265-CPTN5DW.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADogQAAuYdIUSJKxIcl3OiYRYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 170,
+        "filename": "iHostage (2025) 2160p 10bit NF WEB-DL SDR [Hindi DDP5.1 + Dutch DDP Atmos 5.1] x265 (Tyrell-HiQVE).mkv", // Removed size from filename
+        "size": "9.36 GB", // Extracted from filename string
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi | Dutch | Esub",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 14:37:00"
+        "url": "https://drive.jodise8832.workers.dev/2f0ca783beb501e1521a1e6f8e1ba4c3d04270e1ed3a42d618c157b55a064b5bed1d928af51b04eb7ef0699cd3b7d62c::94bd14c78d8e5188cc3aa1bb03801cd8/1397278911/iHostage%20(2025)%202160p%2010bit%20NF%20WEB-DL%20SDR%20[Hindi%20DDP5.1%20+%20Dutch%20DDP%20Atmos%205.1]%20x265%20(Tyrell-HiQVE).mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/u9fu26q2fxk2qff",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 171,
+        "filename": "Superboys Of Malegaon 2025 AMZN DS4K 1080p WEBRip 10bit Hindi DDP5.1 x265 HEVC ESub - NazzY.mkv", // Extracted from URL
+        "size": "3.86 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 19:14:10"
+        "url": "https://pub-95e9327ee4dc4fbdbfa2ead3fe1a06a0.r2.dev/Superboys%20Of%20Malegaon%202025%20AMZN%20DS4K%201080p%20WEBRip%2010bit%20Hindi%20DDP5.1%20x265%20HEVC%20ESub%20-%20NazzY.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADvwgAAuYdIUTnayUpZMXgYRYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/gfyv04woqoyznwg",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 172,
+        "filename": "Khauf.S01.720p.AMZN.WEB-DL.Hindi.DDP5.1.H.265-PrimeFix.tar", // Removed size from filename
+        "size": "1.86 GB", // Extracted from filename string
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi | ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/KMpfxtJPyaX8EUQ",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 173,
+        "filename": "Khauf.S01.720p.AMZN.WEB-DL.Hindi.DDP5.1.H.264-PrimeFix.tar", // Removed size from filename
+        "size": "8.64 GB", // Extracted from filename string
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi | ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/5W1y6MKCUTY3Lu8",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 174,
+        "filename": "Khauf.S01.1080p.AMZN.WEB-DL.Hindi.DDP5.1.H.265-PrimeFix.tar", // Removed size from filename
+        "size": "6.73 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/aamntTJEkmmkFKU",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 175,
+        "filename": "Khauf.S01.1080p.AMZN.WEB-DL.Hindi.DDP5.1.H.264-PrimeFix.tar", // Removed size from filename
+        "size": "20.74 GB", // Extracted from filename string
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi | ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/CRx8qi7NBgsvOsK",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 176,
+        "filename": "House.of.David.S01.720p.AMZN.WEB-DL.DDP5.1.H.265-PrimeFix.tar",
+        "size": "6.13 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADrQUAAjXAgEcuZU4MUEf2GxYE",
+        "gdflixLink": "https://vifix.site/gdflix/Y3iSn71WGb",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 177,
+        "filename": "House.of.David.S01.1080p.AMZN.WEB-DL.DDP5.1.H.265-PrimeFix.tar",
+        "size": "12.18 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADTgYAAjXAgEfDzHjN2gPG3RYE",
+        "gdflixLink": "https://vifix.site/gdflix/dxlTLReKuv",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 178,
+        "filename": "House.of.David.2160p.AMZN.WEB-DL.H.265.DDP5.1-Tyrell",
+        "size": null, // Size not specified
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Likely pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADbAkAAjXAeEeFFE-3FyhZAhYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 179,
+        "filename": "House.of.David.2160p.AMZN.WEB-DL.HDR.H.265.DDP5.1-Tyrell",
+        "size": null, // Size not specified
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Likely pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADcQkAAjXAeEfn_OL9V4rg7BYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 180,
+        "filename": "Chamak.Hindi.Only.S01.2160p.SONY.WEB-DL.DDP5.1.H.265-PrimeFix.7z",
+        "size": "18.87 GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADwRAAAtwmkEc-xpmOEOsZkBYE",
+        "gdflixLink": "https://vifix.site/gdflix/Hc7D5XlpGc",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 181,
+        "filename": "Chamak.Hindi.Only.S01.1080p.SONY.WEB-DL.DDP5.1.H.264-PrimeFix.7z",
+        "size": "8.01 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD8AYAAgX8mUekR7x0mfyTlhYE",
+        "gdflixLink": "https://vifix.site/gdflix/7PfhM4z5iX",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 182,
+        "filename": "Chamak.Hindi.Only.S02.2160p.SONY.WEB-DL.DDP5.1.H.265-PrimeFix.7z",
+        "size": "16.48 GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADyhAAAtwmkEea8poeqTbEbBYE",
+        "gdflixLink": "https://vifix.site/gdflix/3AOVdO1fQu",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 183,
+        "filename": "Chamak.Hindi.Only.S02.1080p.SONY.WEB-DL.DDP5.1.H.264-PrimeFix.7z",
+        "size": "6.95 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADxhAAAtwmkEeZeIjnZrIzNRYE",
+        "gdflixLink": "https://vifix.site/gdflix/2SaTr3Kbgs",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 184,
+        "filename": "The.Hunting.Party.S01.720p.PCOK.WEB-DL.H.264.DDP5.1-PrimeFix.rar",
+        "size": "15.48 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD2AgAAtlMsEcRQRygWX_s5RYE",
+        "gdflixLink": "https://vifix.site/gdflix/cwNR2WAHTM",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 185,
+        "filename": "The.Hunting.Party.S01.1080p.PCOK.WEB-DL.H.264.DDP5.1-PrimeFix.rar",
+        "size": "24.37 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD2wgAAtlMsEc-P2lYklnmYRYE",
+        "gdflixLink": "https://vifix.site/gdflix/qJ79wxhAxz",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 186,
+        "filename": "How.to.Sell.Drugs.Online.Fast.S04.1080p.NF.WEB-DL.DDP5.1.H.265-PrimeFix.7z",
+        "size": "5 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English, Germany, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADdwoAAtlMsEdAynM0QA3bGBYE",
+        "gdflixLink": "https://gd.vifix.site/file/OBkV64di0Q",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 187,
+        "filename": "How.to.Sell.Drugs.Online.Fast.S04.1080p.NF.WEB-DL.DDP5.1.AV1-PrimeFix.7z",
+        "size": "4.06 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English, Germany, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADfgoAAtlMsEdkfCoLc6xrKRYE",
+        "gdflixLink": "https://gd.vifix.site/file/CEsxP7l1l7",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 188,
+        "filename": "How.to.Sell.Drugs.Online.Fast.S04.1080p.NF.WEB-DL.AAC5.1.AV1-PrimeFix.7z",
+        "size": "2.54 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "English, Germany, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADegoAAtlMsEdrTj6P_YG_VxYE",
+        "gdflixLink": "https://gd.vifix.site/file/7R0Gqs2RbM",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 189,
+        "filename": "How.to.Sell.Drugs.Online.Fast.S04.720p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.7z",
+        "size": "4.61 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "English, Germany, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADsQoAAtlMsEe43ms8JehstxYE",
+        "gdflixLink": "https://gd.vifix.site/file/CCmjAPk3Si",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 190,
+        "filename": "How.to.Sell.Drugs.Online.Fast.S04.720p.NF.WEB-DL.AAC5.1.AV1-PrimeFix.7z",
+        "size": "1.16 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "English, Germany, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADgAoAAtlMsEdIlxOwDVtuLBYE",
+        "gdflixLink": "https://gd.vifix.site/file/MSGAVlJOD0",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 191,
+        "filename": "Ra.One.2011.1080p.AMZN.WEB-DL.DDP2.0.HEVC - Saon",
+        "size": "7.11 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // No Direct URL
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/PKCQuEQzMI",
+        "hubcloudLink": null,
+        "filepressLink": "https://new4.filepress.ink/file/67f68df1bdafa4d9cbb3b1d7",
+        "gdtotLink": null
+    },
+    {
+        "id": 192,
+        "filename": "Vedaa.2024.1080p.AMZN.WEB-DL.DDP5.1.H.265-PrimeFix.mkv",
+        "size": "2.63 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // No Direct URL provided
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADkAsAAtlMuEcwd1QBCdFYOBYE",
+        "gdflixLink": "https://gd.vifix.site/file/5HywzRCDtP",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 193,
+        "filename": "Vedaa.2024.720p.AMZN.WEB-DL.DDP5.1.H.265-PrimeFix.mkv",
+        "size": "1.26 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // No Direct URL provided
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADjQsAAtlMuEeLjRW8yVanFBYE",
+        "gdflixLink": "https://gd.vifix.site/file/7ZMFgdql4Z",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 194,
+        "filename": "Black Mirror (2025) S07 2160p NF WEB-DL 10bit DoVi HDR [Hindi DDP 5.1 + English DDP.Atmos 5.1] H.265", // Removed trailing '-'
+        "size": null, // Size not specified
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Likely pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADqggAAsfBwEfx6OQ1ztf8vhYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 195,
+        "filename": "Black.Mirror.S07.2160p.NF.WEB-DL.H.265.DDP5.1.Atmos-Tyrell",
+        "size": null, // Size not specified
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Likely pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADhAcAAsfByEe-9Zv7DlhmBxYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 196,
+        "filename": "Black.Mirror.S07.1080p.NF.WEB-DL.DDP5.1.DV.H.265-PrimeFix.7z",
+        "size": "10.44 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADrwgAAsfBuEd4YJvCzpGyBxYE",
+        "gdflixLink": "https://gd.vifix.site/file/k5xAZ7JPHi",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 197,
+        "filename": "Black.Mirror.S07.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-PrimeFix.7z",
+        "size": "10.99 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADrggAAsfBuEd5X5BUcizdLBYE",
+        "gdflixLink": "https://gd.vifix.site/file/mikS5IYW0Q",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 198,
+        "filename": "Black.Mirror.S07.1080p.NF.WEB-DL.DDP5.1.H.265-PrimeFix.7z",
+        "size": "9.3 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAECwACx8G4R8j81yhophQuFgQ",
+        "gdflixLink": "https://gd.vifix.site/file/jM7URWlAbg",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 199,
+        "filename": "Black.Mirror.S07.1080p.NF.WEB-DL.DDP5.1.AV1-PrimeFix.7z",
+        "size": "6.36 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD9AoAAsfBuEfelSdYZUEgThYE",
+        "gdflixLink": "https://gd.vifix.site/file/E5u87HsSPF",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 200,
+        "filename": "Black.Mirror.S07.1080p.NF.WEB-DL.AAC5.1.AV1-PrimeFix.7z",
+        "size": "3.71 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADQgsAAsfBuEc8s4L9o4v22RYE",
+        "gdflixLink": "https://gd.vifix.site/file/wRRtoGM59u",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 201,
+        "filename": "Black.Mirror.S07.720p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.7z",
+        "size": "7.3 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADRgsAAsfBuEclTauXjYuixRYE",
+        "gdflixLink": "https://gd.vifix.site/file/HuzKnXBg7s",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 202,
+        "filename": "Black.Mirror.S07.720p.NF.WEB-DL.AAC5.1.AV1-PrimeFix.7z",
+        "size": "1.77 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADXQsAAsfBuEc4sVhjfR9vfRYE",
+        "gdflixLink": "https://gd.vifix.site/file/rEaf6Qqw0g",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 203,
+        "filename": "Pravinkoodu.Shappu.2025.2160p.SONY.WEB-DL.DDP5.1.H.265-PrimeFix.mkv",
+        "size": "8.32 GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, Malayalam, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // No Direct URL provided
+        "telegramLink": null,
+        "gdflixLink": "https://gd.vifix.site/file/R3PnSznwGH",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 204,
+        "filename": "Pravinkoodu.Shappu.2025.1080p.SONY.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "size": "3.6 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, Malayalam, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // No Direct URL provided
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADLgwAAsfBuEcJA0pLZ6ZPNBYE",
+        "gdflixLink": "https://gd.vifix.site/file/ZuGwgCM6G5",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 205,
+        "filename": "Pravinkoodu.Shappu.2025.1080p.SLIV.WEB-DL.DUAL.DDP5.1.Atmos.H.265-Archie.mkv",
+        "size": "3.1GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, Malayalam, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // No Direct URL provided
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADMQwAAsfBuEeQzEpkQLk-RBYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 206,
+        "filename": "Pravinkoodu.Shappu.2025.720p.SLIV.WEB-DL.DUAL.DDP5.1.Atmos.H.265-Archie.mkv",
+        "size": "1.9GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi, Malayalam, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // No Direct URL provided
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADtAUAAsfBwEeg5F9JbKzDdxYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 207,
+        "filename": "Chhorii.2.2025.720p.AMZN.WEB-DL.DDP5.1.H.265-PMI.mkv",
+        "size": "1.28 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi, Esubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // No Direct URL provided
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADjA8AAsfBwEfxG9OPgHM2ARYE",
+        "gdflixLink": "https://gdlink.dev/file/vjSVGEMFuf",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 208,
+        "filename": "Chhorii.2.2025.720p.AMZN.WEB-DL.DDP5.1.x265-Telly.mkv",
+        "size": "2.42 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi, Esubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-65acec432fbf489aaa01c5f399643e2a.r2.dev/Chhorii.2.2025.720p.AMZN.WEB-DL.DDP5.1.x265-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADfA8AAsfBwEdMoHjQ07AG-hYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/kswnsj2fnlugwku",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 209,
+        "filename": "Chhorii.2.2025.1080p.AMZN.WEB-DL.DDP5.1.x265-Telly.mkv",
+        "size": "5.49 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, Esubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-02508db7b1fc45749cd714a1bb2375ef.r2.dev/Chhorii.2.2025.1080p.AMZN.WEB-DL.DDP5.1.x265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/dud96dtzf3fdqqb",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 210,
+        "filename": "Chhorii.2.2025.2160p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "size": "13.95 GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, Esubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-c0a0ef4afed74d31b975ce54eb2bd4ad.r2.dev/Chhorii.2.2025.2160p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/1t55xdjztgbaqqt",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 211,
+        "filename": "Court.State.vs.A.Nobody.2025.2160p.NF.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "size": "5.17 GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, Kannada, Malayalam, Tamil, Telugu, Msubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-1370e016485a445099bf45f3376e892f.r2.dev/Court.State.vs.A.Nobody.2025.2160p.NF.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/55pzkmzoy5111iu",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 212,
+        "filename": "Court.State.vs.A.Nobody.2025.2160p.NF.WEB-DL.H.265.DDP5.1-Tyrell.mkv",
+        "size": "13.54 GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, Kannada, Malayalam, Tamil, Telugu, Msubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // No Direct URL provided
+        "telegramLink": null,
+        "gdflixLink": "https://gd.vifix.site/file/qvMFdVw4rD",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 213,
+        "filename": "Court.State.vs.A.Nobody.2025.720p.NF.WEB-DL.MULTI.AAC5.1.AV1-Telly.mkv",
+        "size": "1.3 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi, Kannada, Malayalam, Tamil, Telugu, Msubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Court.State.vs.A.Nobody.2025.720p.NF.WEB-DL.MULTI.AAC5.1.AV1-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADcg8AAsfBwEcjmRNTNLXbxBYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/hhgalqqr5oq6q11",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 214,
+        "filename": "Court.State.vs.A.Nobody.2025.1080p.NF.WEB-DL.MULTI.AAC5.1.AV1-Telly.mkv",
+        "size": "1.77 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, Kannada, Malayalam, Tamil, Telugu, Msubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Court.State.vs.A.Nobody.2025.1080p.NF.WEB-DL.MULTI.AAC5.1.AV1-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADeQ8AAsfBwEeAYlM8IiGmDBYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/i22myr1sw13w23s",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 215,
+        "filename": "Court.State.vs.A.Nobody.2025.720p.NF.WEB-DL.MULTI.DDP5.1.H265-Telly.mkv",
+        "size": "3.5 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi, Kannada, Malayalam, Tamil, Telugu, Msubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-672d1468fd9047e49d90a37c4d37bc90.r2.dev/Court.State.vs.A.Nobody.2025.720p.NF.WEB-DL.MULTI.DDP5.1.H265-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADfQ8AAsfBwEeV5v4yN4huphYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/ycb14x41mp1l1wy",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 216,
+        "filename": "Court.State.vs.A.Nobody.2025.1080p.NF.WEB-DL.MULTI.DDP5.1.H265-Telly.mkv",
+        "size": "5.16 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, Kannada, Malayalam, Tamil, Telugu, Msubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-d51599bda4e24dae8cfbebcdad54b1f7.r2.dev/Court.State.vs.A.Nobody.2025.1080p.NF.WEB-DL.MULTI.DDP5.1.H265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/qntpvzwwqwov19x",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 217,
+        "filename": "The.Legend.of.Hanuman.Hindi.S06.720p.HULU.WEB-DL.AAC2.0.H.264-PrimeFix.tar",
+        "size": "2.12 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADdRAAAsfBwEfX-nN7Ax1QFxYE",
+        "gdflixLink": "https://vifix.site/gdflix/B2OiC7GV5I",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 218,
+        "filename": "The.Legend.of.Hanuman.Hindi.S06.1080p.HULU.WEB-DL.AAC2.0.H.264-PrimeFix.tar",
+        "size": "4.68 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, ESubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // Pack file
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADeRAAAsfBwEfl1L8qxvYhYE",
+        "gdflixLink": "https://vifix.site/gdflix/IIkVpec4HJ",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 219,
+        "filename": "SUPERBOYS.OF.MALEGAON.2025.2025p.AMZN.WEB-DL.H.265.DDP5.1-Tyrell.mkv", // Assuming '2025p' is a typo for '2160p' or similar quality
+        "size": "14.28 GB",
+        "quality": "2160p", // Inferred quality
+        "languages": "Hindi, Esubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // No Direct URL provided
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/npIC4hdd0D",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 220,
+        "filename": "Superboys.of.Malegaon.2025.2160p.AMZN.WEB-DL.MULTI.DDP5.1.H.265-Telly.mkv",
+        "size": "16.55 GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, Esubs", // Assuming MULTI refers primarily to Hindi here based on context
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-c0a0ef4afed74d31b975ce54eb2bd4ad.r2.dev/Superboys.of.Malegaon.2025.2160p.AMZN.WEB-DL.MULTI.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/kww1g101wvc9jg1",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 221,
+        "filename": "SUPERBOYS.OF.MALEGAON.2025.2025p.AMZN.WEB-DL.HDR.H.265.DDP5.1.Atmos-Tyrell.mkv", // Assuming '2025p' is a typo
+        "size": "14.03 GB",
+        "quality": "2160p", // Inferred quality
+        "languages": "Hindi, Esubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // No Direct URL provided
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/j7r9X0MsyG",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 222,
+        "filename": "SUPERBOYS.OF.MALEGAON.2025.2160p.AMZN.WEB-DL.DDP5.1.DV.H.265-Tyrell.mkv",
+        "size": "18.11 GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, Esubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": null, // No Direct URL provided
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/mp7h5AhJPP",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 223,
+        "filename": "Superboys.of.Malegaon.2025.2160p.AMZN.WEB-DL.MULTI.DDP5.1.HDR-DV.H.265-Telly.mkv",
+        "size": "20.79 GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, Esubs", // Assuming MULTI refers primarily to Hindi here based on context
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-c0a0ef4afed74d31b975ce54eb2bd4ad.r2.dev/Superboys.of.Malegaon.2025.2160p.AMZN.WEB-DL.MULTI.DDP5.1.HDR-DV.H.265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/uks8sfldcforr1l",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 224,
+        "filename": "Superboys.of.Malegaon.2025.720p.AMZN.WEB-DL.MULTI.DDP5.1.x265-Telly.mkv",
+        "size": "5.59 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi, Esubs", // Assuming MULTI refers primarily to Hindi here based on context
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-63bf5625aa8841ed89773bc616b1c92c.r2.dev/Superboys.of.Malegaon.2025.720p.AMZN.WEB-DL.MULTI.DDP5.1.x265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/p55fwkmwxyk9nm3",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 225,
+        "filename": "Superboys.of.Malegaon.2025.1080p.AMZN.WEB-DL.MULTI.DDP5.1.x265-Telly.mkv",
+        "size": "9.75 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, Esubs", // Assuming MULTI refers primarily to Hindi here based on context
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-c0a0ef4afed74d31b975ce54eb2bd4ad.r2.dev/Superboys.of.Malegaon.2025.1080p.AMZN.WEB-DL.MULTI.DDP5.1.x265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/9fk4rpyao1tydji",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 226,
+        "filename": "Crazxy.2025.2160p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "size": "9.9 GB",
+        "quality": "2160p", // Extracted from filename
+        "languages": "Hindi, Esubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-c0a0ef4afed74d31b975ce54eb2bd4ad.r2.dev/Crazxy.2025.2160p.AMZN.WEB-DL.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://vifix.site/gdflix/hwLwB4ZdDq",
+        "hubcloudLink": "https://hubcloud.lol/drive/113qq9ay0a1e1cs",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 227,
+        "filename": "Crazxy.2025.720p.AMZN.WEB-DL.DDP5.1.x265-Telly.mkv",
+        "size": "1.48 GB",
+        "quality": "720p", // Extracted from filename
+        "languages": "Hindi, Esubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-db4aad121b26409eb63bf48ceb693403.r2.dev/Crazxy.2025.720p.AMZN.WEB-DL.DDP5.1.x265-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADng8AAsfBwEfKl0qJsh6ooBYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/vkjaajvckeukvfw",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 228,
+        "filename": "Crazxy.2025.1080p.AMZN.WEB-DL.DDP5.1.x265-Telly.mkv",
+        "size": "3.37 GB",
+        "quality": "1080p", // Extracted from filename
+        "languages": "Hindi, Esubs",
+        "lastUpdated": "2025-04-19", // Extracted from "4/19/2025 21:11:48"
+        "url": "https://pub-a39dddf1c6a54eec93f391a427397dbb.r2.dev/Crazxy.2025.1080p.AMZN.WEB-DL.DDP5.1.x265-Telly.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADtw8AAsfBwEcwyVfsrCsb_hYE",
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.lol/drive/xom0ryrfe9gd17r",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 229,
+        "filename": "Harry.Potter.and.the.Philosophers.Stone.2001.2160p.MAX.WEB-DL.DDP5.1.DV.HDR.H.265-PMI.mkv",
+        "size": "21.26 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/0RrdFwevOv",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 230,
+        "filename": "Harry.Potter.and.the.Chamber.of.Secrets.2002.2160p.MAX.WEB-DL.DDP5.1.DV.HDR.H.265-PMI.mkv",
+        "size": "20.05 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/6sP6x0FqdR",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 231,
+        "filename": "Harry.Potter.and.the.Prisoner.of.Azkaban.2004.2160p.MAX.WEB-DL.DDP5.1.DV.HDR.H.265-PMI.mkv",
+        "size": "20.09 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/p1BuoqIeUL",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 232,
+        "filename": "Harry.Potter.and.the.Goblet.of.Fire.2005.2160p.MAX.WEB-DL.DDP5.1.DV.HDR.H.265-PMI.mkv",
+        "size": "20.92 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/jVVGnhTg7E",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 233,
+        "filename": "Harry.Potter.and.the.Order.of.the.Phoenix.2007.2160p.MAX.WEB-DL.DDP5.1.DV.HDR.H.265-PMI.mkv",
+        "size": "18.64 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/hnsGRCQtmF",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 234,
+        "filename": "Harry.Potter.and.the.Half-Blood.Prince.2009.2160p.MAX.WEB-DL.DDP5.1.DV.HDR.H.265-PMI.mkv",
+        "size": "21 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/izculZPkX8",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 235,
+        "filename": "Harry.Potter.and.the.Deathly.Hallows.Part.1.2010.2160p.MAX.WEB-DL.DDP5.1.DV.HDR.H.265-PMI.mkv",
+        "size": "19.93 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/7FqU2g8V82",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 236,
+        "filename": "Harry.Potter.and.the.Deathly.Hallows.Part.2.2011.2160p.MAX.WEB-DL.DDP5.1.DV.HDR.H.265-PMI.mkv",
+        "size": "18.23 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/oBMdrxNjSr",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 237,
+        "filename": "Captain.America.Brave.New.World.2025.2160p.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-XEBEC.mkv",
+        "size": "20.72 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/ionicboy/file/bcMZ7g8FVK",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 238,
+        "filename": "Captain.America.Brave.New.World.2025.2160p.WEB-DL.DDP5.1.Atmos.H.265-XEBEC.mkv",
+        "size": "17.5 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/ionicboy/file/CU5ehh5YPL",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 239,
+        "filename": "Captain.America.Brave.New.World.2025.2160p.AMZN.WEB-DL.DDP5.1.HEVC-KyoGo.mkv",
+        "size": "12.99 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/13943611111"
+    },
+    {
+        "id": 240,
+        "filename": "Captain.America.Brave.New.World.2025.2160p.AMZN.WEB-DL.DDP5.1.HDR.HEVC-KyoGo.mkv",
+        "size": "12.98 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/13937631061"
+    },
+    {
+        "id": 241,
+        "filename": "Captain.America.Brave.New.World.2025.1080p.AMZN.WEB-DL.DDP5.1.H.264-KyoGo.mkv",
+        "size": "7.25 GB",
+        "quality": "1080p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/7779499591"
+    },
+    {
+        "id": 242,
+        "filename": "Captain.America.Brave.New.World.2025.1080p.AMZN.WEB-DL.DDP5.1.HEVC-KyoGo.mkv",
+        "size": "2.63 GB",
+        "quality": "1080p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/2818643998"
+    },
+    {
+        "id": 243,
+        "filename": "Captain.America.Brave.New.World.2025.720p.AMZN.WEB-DL.DDP5.1.HEVC-KyoGo.mkv",
+        "size": "718.67 MB",
+        "quality": "720p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/753585094"
+    },
+    {
+        "id": 244,
+        "filename": "Piece by Piece (2024) 1080p BluRay REMUX AVC [Hindi AAC 2.0 + English TrueHD 7.1] (KRaLiMaRKo-Ionicboy).mkv",
+        "size": "25.41 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/ionicboy/file/eIKlvlFx5a",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 245,
+        "filename": "Piece by Piece (2024) 1080p BluRay [Hindi AAC 2.0 + English DDP 7.1] x264 (HiP-Ionicboy).mkv",
+        "size": "10.72 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/ionicboy/file/7WQus681ww",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 246,
+        "filename": "Piece by Piece (2024) 1080p BluRay [Hindi AAC 2.0 + English DDP 5.1] x264 (hallowed-Ionicboy).mkv",
+        "size": "5.69 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/ionicboy/file/kHRd8P6WvI",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 247,
+        "filename": "Piece by Piece (2024) 2160p WEB-DL 10bit DoVi HDR [Hindi AAC 2.0 + English DDP.Atmos 5.1] H.265 (FLUX-Ionicboy).mkv",
+        "size": "16.11 GB",
+        "quality": "2160p",
+        "languages": "Hindi, English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/ionicboy/file/ARMQb4rsj2",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 248,
+        "filename": "TEST.2025.2160p.NF.WEB-DL.DV.H.265.DDP5.1.Atmos-Tyrell.mkv",
+        "size": "19.03 GB",
+        "quality": "2160p",
+        "languages": "Hindi, Tamil, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gd.vifix.site/file/o6okJv5umJ",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 249,
+        "filename": "TEST.2025.2160p.NF.WEB-DL.HDR.H.265.DDP5.1.Atmos-Tyrell.mkv",
+        "size": "13.28 GB",
+        "quality": "2160p",
+        "languages": "Hindi, Tamil, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gd.vifix.site/file/ajcM4lpaV3",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 250,
+        "filename": "TEST.2025.2160p.NF.WEB-DL.H.265.DDP5.1.Atmos-Tyrell.mkv",
+        "size": "13.42 GB",
+        "quality": "2160p",
+        "languages": "Hindi, Tamil, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gd.vifix.site/file/blkPnnYXVo",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 251,
+        "filename": "TEST.2025.2160p.NF.WEB-DL.Multi.DDP5.1.H.265-Telly.mkv",
+        "size": "15.55 GB",
+        "quality": "2160p",
+        "languages": "Hindi, Tamil, ESubs",
+        "lastUpdated": null,
+        "url": "https://pub-c0a0ef4afed74d31b975ce54eb2bd4ad.r2.dev/TEST.2025.2160p.NF.WEB-DL.Multi.DDP5.1.H.265-Telly.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": "https://hubcloud.ink/drive/qvf7rmrqmmbtvlt",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 252,
+        "filename": "TEST.2025.720p.NF.WEB-DL.AAC5.1.AV1-PrimeFix.mkv",
+        "size": "756.19 MB",
+        "quality": "720p",
+        "languages": "Hindi, Tamil, ESubs",
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/b22f34f505a96265bf49380029bf05f0/TEST.2025.720p.NF.WEB-DL.AAC5.1.AV1-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADqwcAAoWDeUdvDMe8kUEQ4hYE",
+        "gdflixLink": "https://vifix.site/gdflix/3mXLHZKXSD",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 253,
+        "filename": "TEST.2025.720p.NF.WEB-DL.AAC5.1.H.264-PrimeFix.mkv",
+        "size": "1.69 GB",
+        "quality": "720p",
+        "languages": "Hindi, Tamil, ESubs",
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/d0f90020660d80682b70d3e622b04dca/TEST.2025.720p.NF.WEB-DL.AAC5.1.H.264-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADsgcAAoWDeUcxtKLnv_gpMhYE",
+        "gdflixLink": "https://vifix.site/gdflix/MWq7egyIrV",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 254,
+        "filename": "TEST.2025.1080p.NF.WEB-DL.AAC5.1.HDR.H.265-PrimeFix.mkv",
+        "size": "1.52 GB",
+        "quality": "1080p",
+        "languages": "Hindi, Tamil, ESubs",
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/6f62340a912eff7f3132c6eade252a6c/TEST.2025.1080p.NF.WEB-DL.AAC5.1.HDR.H.265-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADrQcAAoWDeUcFGiMzeyeK4BYE",
+        "gdflixLink": "https://vifix.site/gdflix/BHzvDQExbg",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 255,
+        "filename": "TEST.2025.1080p.NF.WEB-DL.AAC5.1.AV1-PrimeFix.mkv",
+        "size": "1.47 GB",
+        "quality": "1080p",
+        "languages": "Hindi, Tamil, ESubs",
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/05e1bf0867dc8f10da1c2d4420a4bc9c/TEST.2025.1080p.NF.WEB-DL.AAC5.1.AV1-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADtQcAAoWDeUdrfKWWZp9MuxYE",
+        "gdflixLink": "https://vifix.site/gdflix/PRQZTI5uPd",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 256,
+        "filename": "TEST.2025.1080p.NF.WEB-DL.AAC5.1.H.265-PrimeFix.mkv",
+        "size": "1.42 GB",
+        "quality": "1080p",
+        "languages": "Hindi, Tamil, ESubs",
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/284b530d9c9a8e47421b32efc760744b/TEST.2025.1080p.NF.WEB-DL.AAC5.1.H.265-PrimeFix.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADrwcAAoWDeUdILREOrYGqqBYE",
+        "gdflixLink": "https://vifix.site/gdflix/Vgxs5Iwbkk",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 257,
+        "filename": "Hijack.S01.1080p.AMZN.WEB-DL.DDP5.1.H.265-ViSTA.rar",
+        "size": "14.06 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADUwcAAoWDeUdooH6N9WAkTBYE",
+        "gdflixLink": "https://gd.vifix.site/file/i5kqTc9UgD",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 258,
+        "filename": "Hijack.S01.720p.AMZN.WEB-DL.DDP5.1.H.265-ViSTA.rar",
+        "size": "4.99 GB",
+        "quality": "720p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADpAUAAjXAgEfmid7cxr4QXhYE",
+        "gdflixLink": "https://gd.vifix.site/file/iStvCApYvs",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 259,
+        "filename": "Hijack.S01.2160p.ATVP.WEB-DL.DDP5.1.Atmos.H.265-PMI.tar",
+        "size": "50.92 GB",
+        "quality": "2160p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/2jIyBRvzUz",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 260,
+        "filename": "PULSE.S01.1080p.NF.WEB-DL.DDP5.1.DV.H.265-ViSTA.7z",
+        "size": "9.84 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADCAgAAjXAeEdY9DMN3U0kehYE",
+        "gdflixLink": "https://gd.vifix.site/file/mNFrT92wzN",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 261,
+        "filename": "PULSE.S01.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-ViSTA.7z",
+        "size": "11.73 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADHggAAjXAeEfDAAHJewGRL6IWBA",
+        "gdflixLink": "https://gd.vifix.site/file/xXVfAtfkZ3",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 262,
+        "filename": "PULSE.S01.1080p.NF.WEB-DL.DDP5.1.H.265-ViSTA.7z",
+        "size": "11.17 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADWQkAAjXAeEfHp2x8z174ZhYE",
+        "gdflixLink": "https://gd.vifix.site/file/CLNnRpdcC1",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 263,
+        "filename": "PULSE.S01.1080p.NF.WEB-DL.DDP5.1.AV1-ViSTA.7z",
+        "size": "10.01 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADYAkAAjXAeEfVcQod3qn6WRYE",
+        "gdflixLink": "https://gd.vifix.site/file/ZvvcRLDYjY",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 264,
+        "filename": "PULSE.S01.1080p.NF.WEB-DL.AAC5.1.AV1-ViSTA.7z",
+        "size": "6.59 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADnAkAAjXAeEc-OWVvoqJF6hYE",
+        "gdflixLink": "https://gd.vifix.site/file/HKwbF37OPb",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 265,
+        "filename": "PULSE.S01.720p.NF.WEB-DL.DDP5.1.H.264-ViSTA.7z",
+        "size": "9.25 GB",
+        "quality": "720p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD5QkAAjXAeEcpPuBVQrh4URYE",
+        "gdflixLink": "https://gd.vifix.site/file/IxVFzDAg2Z",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 266,
+        "filename": "PULSE.S01.720p.NF.WEB-DL.AAC5.1.AV1-ViSTA.7z",
+        "size": "2.54 GB",
+        "quality": "720p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD6QkAAjXAeEdph6kXPqAwVRYE",
+        "gdflixLink": "https://gd.vifix.site/file/tjEDo6K6jD",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 267,
+        "filename": "The.Bondsman.S01.1080p.AMZN.WEB-DL.DDP5.1.H.265-ViSTA.7z",
+        "size": "9.61 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADxwcAAjXAeEcAAbO6DKzTbJEWBA",
+        "gdflixLink": "https://gd.vifix.site/file/iF0AlIBywU",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 268,
+        "filename": "The.Bondsman.S01.720p.AMZN.WEB-DL.DDP5.1.H.265-ViSTA.7z",
+        "size": "3.3 GB",
+        "quality": "720p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADygcAAjXAeEcQxvWkkOk1PhYE",
+        "gdflixLink": "https://gd.vifix.site/file/AnVMLTUx4n",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 269,
+        "filename": "The.Bondsman.S01.2160p.AMZN.WEB-DL.H.265.DDP5.1-Tyrell.tar",
+        "size": "24.80 GB",
+        "quality": "2160p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD1QcAAjXAeEe1W4CO4idQIBYE",
+        "gdflixLink": "https://vifix.site/gdflix/k12pHWZFmG",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 270,
+        "filename": "The.Bondsman.S01.2160p.AMZN.WEB-DL.HDR.H.265.DDP5.1-Tyrell.tar",
+        "size": "24.60 GB",
+        "quality": "2160p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD2QcAAjXAeEfTfLQRlwbPgBYE",
+        "gdflixLink": "https://vifix.site/gdflix/37PMx7q4Tg",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 271,
+        "filename": "Banger.2025.1080p.NF.WEB-DL.DDP5.1.DV.H.265-ViSTA.mkv",
+        "size": "2.28 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, French, ESubs",
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/b388132d9939186c187aa32174bfbde7/Banger.2025.1080p.NF.WEB-DL.DDP5.1.DV.H.265-ViSTA.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD2wkAAmJHaUdu905HNpFk1RYE",
+        "gdflixLink": "https://gd.vifix.site/file/CBXk6xAtpI",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 272,
+        "filename": "Banger.2025.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-ViSTA.mkv",
+        "size": "2.07 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, French, ESubs",
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/4a0f3f1ed6a2b60204734f841036f7cf/Banger.2025.1080p.NF.WEB-DL.DDP5.1.HDR.H.265-ViSTA.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD4wkAAmJHaUdTZKiQhHCrdhYE",
+        "gdflixLink": "https://gd.vifix.site/file/kJSpNQmiiL",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 273,
+        "filename": "Banger.2025.1080p.NF.WEB-DL.DDP5.1.H.265-ViSTA.mkv",
+        "size": "3.25 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, French, ESubs",
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/af356311e41acf09f3a7ea3050c6d77f/Banger.2025.1080p.NF.WEB-DL.DDP5.1.H.265-ViSTA.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD2AkAAmJHaUeC4HVV3TIrhhYE",
+        "gdflixLink": "https://gd.vifix.site/file/WVnWATffIl",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 274,
+        "filename": "Banger.2025.1080p.NF.WEB-DL.DDP5.1.AV1-ViSTA.mkv",
+        "size": "2.16 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, French, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD3AkAAmJHaUdP5SvwLiq7ChYE",
+        "gdflixLink": "https://gd.vifix.site/file/BAfgBgjMPt",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 275,
+        "filename": "Banger.2025.1080p.NF.WEB-DL.AAC5.1.AV1-ViSTA.mkv",
+        "size": "1.22 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, French, ESubs",
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/b511dac99fed8387bb9bfb26fef49b9f/Banger.2025.1080p.NF.WEB-DL.AAC5.1.AV1-ViSTA.mkv",
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADOgkAAmJHaUdkbCqV7wTaVhYE",
+        "gdflixLink": "https://gd.vifix.site/file/YsDYOjrQHa",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 276,
+        "filename": "Banger.2025.720p.NF.WEB-DL.AAC5.1.AV1-ViSTA.mkv",
+        "size": "626 MB",
+        "quality": "720p",
+        "languages": "Hindi, English, French, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADzw8AAmJHYUeMWm9sPoDUWBYE",
+        "gdflixLink": "https://gd.vifix.site/file/BwaETmxSwy",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 277,
+        "filename": "Identity (2025) 2160p 10bit ZEE5 WEB-DL x265 HEVC [Org UPLAY Hindi DDP 2.0 ~192Kbps + Malayalam DDP 5.1] ESub - BunnyJMB.mkv",
+        "size": "1.69 GB",
+        "quality": "2160p",
+        "languages": "Hindi, Malayalam, Esubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADtQ0AAmJHYUdS-el73RENhBYE",
+        "gdflixLink": "https://gdlink.dev/file/Cv4RbEnOv2",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 278,
+        "filename": "Identity (2025) 1440p 10bit ZEE5 WEB-DL x265 HEVC [Org UPLAY Hindi DDP 2.0 ~192Kbps + Malayalam DDP 5.1] ESub - iMMORTAL.mkv",
+        "size": "1.26 GB",
+        "quality": "1440p",
+        "languages": "Hindi, Malayalam, Esubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD5g0AAmJHYUd3fOm7t6swFBYE",
+        "gdflixLink": "https://gdlink.dev/file/UTtoqtxclO",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 279,
+        "filename": "Identity (2025) 1080p ZEE5 WEB-DL x264 [Org UPLAY Hindi DDP 2.0 ~192Kbps + Malayalam DDP 5.1] ESub - BunnyJMB.mkv",
+        "size": "1.96 GB",
+        "quality": "1080p",
+        "languages": "Hindi, Malayalam, Esubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADvw0AAmJHYUeRCBga20e9ohYE",
+        "gdflixLink": "https://gdlink.dev/file/0OY1zJvUhl",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 280,
+        "filename": "Identity (2025) 1080p 10bit ZEE5 WEB-DL x265 HEVC [Org UPLAY Hindi DDP 2.0 ~192Kbps + Malayalam DDP 5.1] ESub - iMMORTAL.mkv",
+        "size": "1.09 GB",
+        "quality": "1080p",
+        "languages": "Hindi, Malayalam, Esubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADsQ0AAmJHYUeShlRn4npzuBYE",
+        "gdflixLink": "https://gdlink.dev/file/j0DlJofs4C",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 281,
+        "filename": "Identity (2025) 720p 10bit ZEE5 WEB-DL x265 HEVC [Org UPLAY Hindi DDP 2.0 ~192Kbps + Malayalam DDP 5.1] ESub - iMMORTAL.mkv",
+        "size": "873.97 MB",
+        "quality": "720p",
+        "languages": "Hindi, Malayalam, Esubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQAD6g0AAmJHYUcaSjPTfUui0hYE",
+        "gdflixLink": "https://gdlink.dev/file/1HuGg1SndE",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 282,
+        "filename": "Monarch.Legacy.of.Monsters.S01.1080p.AMZN.WEB-DL.DDP5.1.H.265-ViSTA.rar",
+        "size": "12.88 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADXAwAAmJHYUcGal7OIFvW0BYE",
+        "gdflixLink": "https://gd.vifix.site/file/bBBVUcGdnk",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 283,
+        "filename": "Monarch.Legacy.of.Monsters.S01.720p.AMZN.WEB-DL.DDP5.1.H.265-ViSTA.rar",
+        "size": "6.21 GB",
+        "quality": "720p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADVwwAAmJHYUdOKmkG9o4EShYE",
+        "gdflixLink": "https://gd.vifix.site/file/BjV7FK3zOi",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 284,
+        "filename": "Monarch.Legacy.of.Monsters.S01.2160p.AMZN.WEB-DL.DDP5.1.H.265-ViSTA.rar",
+        "size": null, // Size missing in input
+        "quality": "2160p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADmw0AAmJHYUcogO6DoxjUZxYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 285,
+        "filename": "Monarch.Legacy.of.Monsters.S01.2160p.AMZN.WEB-DL.DDP5.1.HDR.H.265-ViSTA.rar",
+        "size": null, // Size missing in input
+        "quality": "2160p",
+        "languages": "Hindi, English, ESubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADnQ0AAmJHYUezlhYKeJakxxYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 286,
+        "filename": "The.Brutalist.2024.1080p.AMZN.WEB-DL.DDP5.1.H.264-KyoGo.mkv",
+        "size": "14.85 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/15944578320"
+    },
+    {
+        "id": 287,
+        "filename": "The.Brutalist.2024.1080p.AMZN.WEB-DL.DDP5.1.HEVC-KyoGo.mkv",
+        "size": "9.01 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/9669499621"
+    },
+    {
+        "id": 288,
+        "filename": "The.Brutalist.2024.720p.AMZN.WEB-DL.DDP5.1.HEVC-KyoGo.mkv",
+        "size": "1.49 GB",
+        "quality": "720p",
+        "languages": "Hindi, English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADgQcAAmJHYUfkKewkcPZcjBYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/3207623029"
+    },
+    {
+        "id": 289,
+        "filename": "The Brutalist (2024) 2160p UHD BluRay 10bit SDR HEVC [Hindi DDP 5.1 + English DTS-HD MA 5.1] x265 (SPHD-LUMiX).mkv",
+        "size": "68.87 GB",
+        "quality": "2160p",
+        "languages": "Hindi, English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/file/9sYKUDKneQ",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 290,
+        "filename": "The Brutalist (2024) 1080p BluRay REMUX AVC [Hindi DDP 5.1 + English DTS-HD MA 5.1] x264 (ProTem-LUMiX).mkv",
+        "size": "39.14 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/file/IWCrYfmSMQ",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 291,
+        "filename": "The Brutalist (2024) 1080p UHD BluRay 10bit HEVC [Hindi DDP 5.1 + English DDP 5.1] x265 (SoLaR-LUMiX).mkv",
+        "size": "32.41 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/file/sQR8RVeCJX",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 292,
+        "filename": "The Brutalist (2024) 1080p UHD BluRay 10bit HEVC [Hindi DDP 5.1 + English DDP 5.1] x265 (DarQ HONE-LUMiX).mkv",
+        "size": "11.9 GB",
+        "quality": "1080p",
+        "languages": "Hindi, English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://ziddiflix.com/file/o7kxLPv8k7",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 293,
+        "filename": "The.Outsider.2018.720p.NF.WEB-DL.DDP5.1.H.264-PrimeFix.mkv",
+        "size": "915.65 MB",
+        "quality": "720p",
+        "languages": "English, MSubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADIAcAAmJHYUdrTBVB-O19qhYE",
+        "gdflixLink": "https://vifix.site/gdflix/dxqGLwjRbv",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 294,
+        "filename": "The.Outsider.2018.720p.NF.WEB-DL.DDP5.1.AV1-PrimeFix.mkv",
+        "size": "353.19 MB",
+        "quality": "720p",
+        "languages": "English, MSubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADIgcAAmJHYUeoNcCEbLH2bBYE",
+        "gdflixLink": "https://vifix.site/gdflix/vIRSerowB2",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 295,
+        "filename": "The.Outsider.2018.1080p.NF.WEB-DL.DDP5.1.AV1-PrimeFix.mkv",
+        "size": "685.92 MB",
+        "quality": "1080p",
+        "languages": "English, MSubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADIwcAAmJHYUdHx7Z4-8Py6xYE",
+        "gdflixLink": "https://vifix.site/gdflix/2O8V8KoF8O",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 296,
+        "filename": "The.Outsider.2018.1080p.NF.WEB-DL.DDP5.1.VP9-PrimeFix.mkv",
+        "size": "594.11 MB",
+        "quality": "1080p",
+        "languages": "English, MSubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADOQcAAmJHYUcongABCccU_UoWBA",
+        "gdflixLink": "https://vifix.site/gdflix/9Hg2NwNLzm",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 297,
+        "filename": "The.Outsider.2018.1080p.NF.WEB-DL.DDP5.1.H.265-PrimeFix.mkv",
+        "size": "926.28 MB",
+        "quality": "1080p",
+        "languages": "English, MSubs",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADOgcAAmJHYUe7QviuzZdBVBYE",
+        "gdflixLink": "https://vifix.site/gdflix/O1vFeSmVaV",
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 298,
+        "filename": "Fandry 2013 WebRip 1080p Marathi DD 5.1 x264 ESub - mkvCinemas.mkv",
+        "size": "1.94 GB",
+        "quality": "1080p",
+        "languages": "Marathi, ESub",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADygcAAi85WUcE3Z6ych8KRRYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/2082434674"
+    },
+    {
+        "id": 299,
+        "filename": "Fandry 2013 WebRip 480p x265 HEVC 10bit Marathi ESub - mkvCinemas.mkv",
+        "size": "219.16 MB",
+        "quality": "480p",
+        "languages": "Marathi, ESub",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADsQcAAi85WUf0DOmmq8c1XhYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/229807729"
+    },
+    {
+        "id": 300,
+        "filename": "Fandry 2013 WebRip 720p Marathi AAC 5.1 x264 ESub - mkvCinemas.mkv",
+        "size": "942.5 MB",
+        "quality": "720p",
+        "languages": "Marathi, ESub",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": "https://t.me/Cinema_ghar_file_share_bot?start=BQADAQADwQcAAi85WUePMfKbXgLYDBYE",
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/988287224"
+    },
+    {
+        "id": 301,
+        "filename": "Fandry.2013.1080p.AMZN.WEB-DL.DD5.1.H.264-mkvCinemas.mkv",
+        "size": "8.53 GB",
+        "quality": "1080p",
+        "languages": "Marathi",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": "https://new17.gdtot.dad/file/9160734585"
+    },
+    {
+        "id": 302,
+        "filename": "House.of.the.Dragon.S01.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-PMI.rar",
+        "size": "93.94 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/9Bs2TiKMym",
+        "hubcloudLink": "https://xcloud.click/e7fef340a5d1327",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 303,
+        "filename": "House.of.the.Dragon.S02.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-PMI.rar",
+        "size": "78.79 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/5DF6YWWdmd",
+        "hubcloudLink": "https://xcloud.click/3d15a760f77b9be",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 304,
+        "filename": "Game.of.Thrones.S01.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-PMI.rar",
+        "size": "85.91 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/FkhxkvUReA",
+        "hubcloudLink": "https://xcloud.click/320e6eb5ebfdcde",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 305,
+        "filename": "Game.of.Thrones.S02.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-PMI.rar",
+        "size": "81.82 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/LbfEcvNbPL",
+        "hubcloudLink": "https://xcloud.click/4e1027980a4e450",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 306,
+        "filename": "Game.of.Thrones.S03.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-PMI.rar",
+        "size": "82.18 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/N6otIyH7nx",
+        "hubcloudLink": "https://xcloud.click/171900b1ef47f7e",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 307,
+        "filename": "Game.of.Thrones.S04.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-PMI.rar",
+        "size": "81.52 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/lT26hs6CGN",
+        "hubcloudLink": "https://xcloud.click/14e3af71db194f5",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 308,
+        "filename": "Game.of.Thrones.S05.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-PMI.rar",
+        "size": "84.38 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/UWEyT4U6vi",
+        "hubcloudLink": "https://xcloud.click/5d7d5d2494bb41e",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 309,
+        "filename": "Game.of.Thrones.S06.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-PMI.rar",
+        "size": "84.28 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/h52NJGLU7e",
+        "hubcloudLink": "https://xcloud.click/7705353c5613079",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 310,
+        "filename": "Game.of.Thrones.S07.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-PMI.rar",
+        "size": "63.74 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/FkpG6iHcth",
+        "hubcloudLink": "https://xcloud.click/5250949c60b1f7c",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 311,
+        "filename": "Game.of.Thrones.S08.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-PMI.rar",
+        "size": "60.79 GB",
+        "quality": "2160p",
+        "languages": "English",
+        "lastUpdated": null,
+        "url": null,
+        "telegramLink": null,
+        "gdflixLink": "https://gdlink.dev/file/fHVORqV8kq",
+        "hubcloudLink": "https://xcloud.click/3fbaf9bdc39bdc1",
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 312,
+        "filename": "Jurassic.World.Chaos.Theory.S03E01.Excess.Baggage.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "size": "1.03 GB", // Extracted from input
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs", // Extracted from input
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/fabfbc4a13c165eb912cb86cefcfe01f/Jurassic.World.Chaos.Theory.S03E01.Excess.Baggage.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 313,
+        "filename": "Jurassic.World.Chaos.Theory.S03E02.Villa.Paradiso.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "size": "1.13 GB", // Extracted from input
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs", // Extracted from input
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/7f52f60797a03545216aac4b8e35aec4/Jurassic.World.Chaos.Theory.S03E02.Villa.Paradiso.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 314,
+        "filename": "Jurassic.World.Chaos.Theory.S03E03.The.Queens.Court.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "size": "1.03 GB", // Extracted from input
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs", // Extracted from input
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/728f20086029222b3a310b4a04f5e14b/Jurassic.World.Chaos.Theory.S03E03.The.Queens.Court.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 315,
+        "filename": "Jurassic.World.Chaos.Theory.S03E04.Fire.in.the.Piazza.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "size": "1 GB", // Extracted from input
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs", // Extracted from input
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/f42683e9b865d54d7dd5a8f316a6acad/Jurassic.World.Chaos.Theory.S03E04.Fire.in.the.Piazza.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 316,
+        "filename": "Jurassic.World.Chaos.Theory.S03E05.Boiling.Over.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "size": "1010.03 MB", // Extracted from input
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs", // Extracted from input
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/aec9c05c6a6af574192f2203eded91df/Jurassic.World.Chaos.Theory.S03E05.Boiling.Over.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 317,
+        "filename": "Jurassic.World.Chaos.Theory.S03E06.Undercover.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "size": "1 GB", // Extracted from input
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs", // Extracted from input
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/0cbd7d82d5b1be2485089c29faff1594/Jurassic.World.Chaos.Theory.S03E06.Undercover.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 318,
+        "filename": "Jurassic.World.Chaos.Theory.S03E07.Decisions.Decisions.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "size": "1.2 GB", // Extracted from input
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs", // Extracted from input
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/7e74363a4a3e9bb8550d6b81cb92f194/Jurassic.World.Chaos.Theory.S03E07.Decisions.Decisions.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 319,
+        "filename": "Jurassic.World.Chaos.Theory.S03E08.No.Escape.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "size": "1.01 GB", // Extracted from input
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs", // Extracted from input
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/261631102143db906d3ee77b23dbd330/Jurassic.World.Chaos.Theory.S03E08.No.Escape.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 320,
+        "filename": "Jurassic.World.Chaos.Theory.S03E09.Active.Pursuit.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "size": "1.11 GB", // Extracted from input
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs", // Extracted from input
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/be905f4ede6cc0e57f1b1f82455eb7c4/Jurassic.World.Chaos.Theory.S03E09.Active.Pursuit.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 321,
+        "filename": "Jurassic.World.Chaos.Theory.S03E10.Morituri.Te.Salutant.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "size": "1.18 GB", // Extracted from input
+        "quality": "1080p",
+        "languages": "Hindi, English, ESubs", // Extracted from input
+        "lastUpdated": null,
+        "url": "https://pub-35982c4cfad94855a3562de24fb25a1a.r2.dev/5cb12a2a718cba19450e1026d4caf80b/Jurassic.World.Chaos.Theory.S03E10.Morituri.Te.Salutant.1080p.NF.WEB-DL.DDP5.1.H.264-ViSTA.mkv",
+        "telegramLink": null,
+        "gdflixLink": null,
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 322,
+        "filename": "C.I.D.S03E35.1080p.NF.WEB-DL.Hindi.AAC2.0.H.264-PrimeFix.mkv",
+        "size": "1.95 GB", // Extracted from input
+        "quality": "1080p",
+        "languages": "Hindi", // Extracted from input
+        "lastUpdated": "2025-04-20", // Extracted from "4/20/2025 9:20:48"
+        "url": "https://test.hyperxbot.site/1001186374563/17457", // From input
+        "telegramLink": null,
+        "gdflixLink": "https://gd.vifix.site/file/RCRQimBLn9kOezw", // From input
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 323,
+        "filename": "C.I.D.S03E36.1080p.NF.WEB-DL.Hindi.AAC2.0.H.264-4kHdHub.Com.mkv",
+        "size": "2.03 GB", // Extracted from input
+        "quality": "1080p",
+        "languages": "Hindi, ESubs", // Extracted from "Hindi | ESubs"
+        "lastUpdated": "2025-04-21", // Extracted from "4/21/2025 9:20:48"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/39db22c829a04904280c5a95798f5a04/C.I.D.S03E36.1080p.NF.WEB-DL.Hindi.AAC2.0.H.264-4kHdHub.Com.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://gd.vifix.site/file/JoAsA7QXeyVEyVn", // From input
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    },
+    {
+        "id": 324,
+        "filename": "C.I.D.S03E36.720p.NF.WEB-DL.Hindi.AAC2.0.H.264-4kHdHub.Com.mkv",
+        "size": "1 GB", // Extracted from input
+        "quality": "720p",
+        "languages": "Hindi, ESubs", // Extracted from "Hindi | ESubs"
+        "lastUpdated": "2025-04-21", // Extracted from "4/21/2025 9:20:48"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/871b7327b951219d96b761975b22f2b6/C.I.D.S03E36.720p.NF.WEB-DL.Hindi.AAC2.0.H.264-4kHdHub.Com.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://gd.vifix.site/file/AfinO0kA5ejZR8Y", // From input
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
+    }
+  // --- End of Data ---
+];
+
+// Optional: Add a placeholder for missing data if needed by your logic
+// window.cinemaGharData.push({
+//     "id": 0, "filename": null, "size": null, "quality": null, "languages": null,
+//     "lastUpdated": null, "url": null, "telegramLink": null, "gdflixLink": null,
+//     "hubcloudLink": null, "filepressLink": null, "gdtotLink": null
+// });
+
+
+console.log(`movie_data.js loaded: ${window.cinemaGharData.length} items.`);
