@@ -4542,7 +4542,22 @@ window.cinemaGharData = [
         "hubcloudLink": null,
         "filepressLink": null,
         "gdtotLink": null
+    },
+    {
+        "id": 325,
+        "filename": "C.I.D.S03E36.720p.NF.WEB-DL.Hindi.AAC2.0.H.264-4kHdHub.Com.mkv",
+        "size": "1 GB", // Extracted from input
+        "quality": "720p",
+        "languages": "Hindi, ESubs", // Extracted from "Hindi | ESubs"
+        "lastUpdated": "2025-04-21", // Extracted from "4/21/2025 9:20:48"
+        "url": "https://pub-225c8869bc8c483980625b632dcf4504.r2.dev/871b7327b951219d96b761975b22f2b6/C.I.D.S03E36.720p.NF.WEB-DL.Hindi.AAC2.0.H.264-4kHdHub.Com.mkv",
+        "telegramLink": null,
+        "gdflixLink": "https://gd.vifix.site/file/AfinO0kA5ejZR8Y", // From input
+        "hubcloudLink": null,
+        "filepressLink": null,
+        "gdtotLink": null
     }
+  
   // --- End of Data ---
 ];
 
