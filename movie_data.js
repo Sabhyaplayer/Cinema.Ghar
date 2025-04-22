@@ -7750,7 +7750,6 @@ window.cinemaGharData = [
         "gdtotLink": "https://new16.gdtot.dad/file/1007451327"
     }
   // --- End of Data ---
-];
 
 // Optional: Add a placeholder for missing data if needed by your logic
 // window.cinemaGharData.push({
